@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:              
+title: Cristian Consonni's page
+locale: en_US
+url:          
 
 
 # Jekyll configuration
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Cristian Consonni
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  bio: "Computer science PhD student, free software activist, physicist and storyteller"
+  email: cristian.consonni@unitn.it
+  disqus-shortname: CristianCantoro
+  twitter: CristianCantoro
+  facebook: cristian.consonni
   google:
-    plus: #username
+    plus: CristianConsonni
     analytics: 
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: CristianCantoro
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: cristianconsonni
   xing: #username
   instagram: #username
   lastfm: #username

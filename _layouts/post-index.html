@@ -34,6 +34,9 @@
   </div>
   <div id="index">
     <h1>{{ page.title }}</h1>
+    {% if site.posts == empty %}
+    <p>There are no posts yet, come back later!</p>
+    {% endif %}
     {% for post in site.posts %}  
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
