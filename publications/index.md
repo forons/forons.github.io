@@ -39,7 +39,7 @@ at [Fondazione Bruno Kessler](http://www.fbk.eu) or during projects done by [Wik
 
 ---
 
-### Bacherlor and Master Thesis
+### Bachelor and Master Thesis
 
 I have received both my BSc in Physics and my MSc in computational physics 
 from the [University of Milano-Bicocca](http://www.unimib.it) (UniMiB), Milan.

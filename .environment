@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+DEPLOY_SOURCE_DIR="_site/"
+DEPLOY_ACCOUNT="consonni"
+DEPLOY_SERVER="brenta.disi.unitn.it"
+DEPLOY_DEST_DIR="~/public_html"
