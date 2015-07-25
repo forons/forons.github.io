@@ -5,8 +5,8 @@ modified: 2015-06-16T120:49:00.362000+01:00
 excerpt: "Courses information and materials"
 image:
   feature: mountains-3.jpg
-  credit: dbTrento
-  creditlink: http://db.disi.unitn.eu/
+  credit: CC BY-NC-SA by photolupi
+  creditlink: https://www.flickr.com/photos/photolupi/3294447879
 ---
 
 These are my publications.
