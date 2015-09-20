@@ -41,9 +41,10 @@ jekyll build
 echo -n "Clean up directory "
 chmod -R og+Xr "${DIR}/${DEPLOY_SOURCE_DIR}"
 find . -type f -name '*.DS_Store' -ls -delete
-echo -n "...done"
+echo "...done"
 
 # Transfer to server with rsync
+echo ""
 echo "Performing transfer to server"
 echo ""
 #rsync $NFLAG -rvzp --size-only --delete --exclude-from="$DIR/.deployignore" "${DIR}/${DEPLOY_SOURCE_DIR}" "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"

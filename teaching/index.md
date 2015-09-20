@@ -18,7 +18,7 @@ del CdL triennale in matematica.
 
 * **Lezione 01**: introduzione a Java, variabili, operatori, Eclipse, istruzioni condizionali.
   <p align="right">
-    <a id="Sorgente delle slides su GitHub" href="./slides/InfMat_01.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="/images/github-circled.svg" style="width: 24px" /></a> <!--- - <a href="./codice/">Codice</a> - <a href="./codice/">Soluzioni</a> --->
+    <a id="Sorgente delle slides su GitHub" href="./slides/InfMat_01.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a> <!--- - <a href="./codice/">Codice</a> - <a href="./codice/">Soluzioni</a> --->
   </p>
 
 ---
