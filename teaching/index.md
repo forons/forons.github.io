@@ -18,11 +18,15 @@ del CdL triennale in matematica.
 
 * **Lezione 01**: introduzione a Java, variabili, operatori, Eclipse, istruzioni condizionali.
   <p align="right">
-    <a id="Sorgente delle slides su GitHub" href="./slides/InfMat_01.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a> <!--- - <a href="./codice/">Codice</a> - <a href="./codice/">Soluzioni</a> --->
+    <a id="Slide da scaricare in formato PDF" href="./slides/InfMat_01.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./soluzioni/Lezione01.zip">soluzioni</a>
+  </p>
+* **Lezione 02**: Iterazioni e cicli, ciclo while, ciclo for.
+  <p align="right">
+    <a id="Slide da scaricare in formato PDF" href="./slides/InfMat_02.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a>
   </p>
 
 ---
 
 ## Domande?
 
-Se avete domande potete <a href="mailto:{{ author.email }}" target="_blank">contattarmi via email</a>.
+Se avete domande potete <a href="mailto:cristian.consonni(at)unitn(dot)it" target="_blank">contattarmi via email</a>.
