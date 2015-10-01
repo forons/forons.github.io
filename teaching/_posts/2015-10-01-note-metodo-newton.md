@@ -1,5 +1,5 @@
 ---
-labout: post
+layout: post
 title: Note sul metodo di Newton per il calcolo della radice quadrata.
 excerpt: "Mi è stato segnalato un errore rispetto all'esercizio per il calcolo della radice quadrata di un numero con il metodo di Newton presentato a lezione il 30/09/2015. Condivido qui le risposte"
 modified: 2015-10-01
@@ -7,14 +7,14 @@ tags: [teaching, informatica, sqrt, Newton]
 comments: true
 image:
   feature: mountains-2.jpg
-  credit: Frisia Orientalis @ Wikimedia Commons (CC-Bb-SA 3.0)
+  credit: Frisia Orientalis @ Wikimedia Commons (CC-BY-SA 3.0)
   creditlink: https://commons.wikimedia.org/wiki/File:Passo_di_Giau.jpg
 ---
 
 **Riassunto:** per errore, le slide relative al metodo di Newton riportavano
-che la serie convergeva al valore \\(\lim_{n \to \inftb} x_{n} = \sqrt{z}\\),
+che la serie convergeva al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\),
 invece la successione converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero
-\\(\lim_{n \to \inftb} x_{n} = \dfrac{1}{\sqrt{z}}\\).
+\\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
 {: .notice}
 
 Mi sono state fatte alcune domande e mi è stato segnalato un errore rispetto
@@ -22,14 +22,14 @@ all'esercizio per il calcolo della radice quadrata di un numero con il metodo di
 Newton presentato a lezione il 30/09/2015. Condivido qui le risposte:
 
 *  per errore le slide relative al metodo di Newton riportavano che la serie convergeva
-erroneamente al valore \\(\lim_{n \to \inftb} x_{n} = \sqrt{z}\\) invece la successione
-converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \inftb} x_{n} = \dfrac{1}{\sqrt{z}}\\).
+erroneamente al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\) invece la successione
+converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
 Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> sono corrette.
 
 * Per alcuni valori di $$z$$ del quale calcolare la radice quadrata, partendo dal valore $$x_0 =  0.5$$
 si ottiene un comportamento oscillatorio, ovvero la successione continua a "saltare" tra due valori.
 In particolare, per esempio, quando $$z = 20$$ si ha $$\{x_n\} = 1/2, -1/2, 1/2, -1/2, \dots$$.
-Questo tipo di problemi è tipico dei processi iterativi. 
+Questo tipo di problemi è tipico dei processi iterativi.
 Nello specifico, partendo dal sistema di equazioni iniziale:
 
 $$
@@ -71,10 +71,9 @@ $$
 
 * Le soluzioni sono i valori per cui la serie oscilla (e per quanto riguarda le
 prime due coppie di risultati, come sottocaso, si trovano anche le soluzioni
-che sono punto fisso ovvero \\(z = - 1/\sqrt{20}\\) e \\(z = 1/\sqrt{20}\\)).
+che sono punto fisso ovvero \\(z = - 1/\sqrt{20}\\) e \\(z = 1/\sqrt{20}\\).
 
-* In realtà la cosa più furba da fare non è iniziare da un valore arbitrario
-(come \\(0.5\\)) ma da un valore più vicino al risultato di modo da ridurre i
+* in generale, utilizzando per \\(x_0\\)  un valore più vicino al risultato riduce i
 tempi di convergenza e da evitare  questi problemi. Nello specifico è semplice
 calcolare la parte intera di una radice quadrata (ovvero l'intero \\(x\\) più
 grande tale che \\(x^2 < z\\)). In particolare in questo caso \\(\sqrt{20} > 4\\),
@@ -90,13 +89,13 @@ $$ x_0 = \dfrac{1}{\lfloor x \rfloor} $$
 * Rispetto all'errore compiuto dal metodo, ovvero su come interpretare il
 valore di \\(\varepsilon\\) si può notare che definendo \\(r_{n} = \dfrac{1}{x_{n}}\\) 
 la condizione di terminazione si può scrivere come
-$$\left|r^{2}_{n} - z\right| = \varepsilon$$ ovvero nella peggiore delle
+$$\left|r^{2}_{n} - z\right| < \varepsilon$$ ovvero nella peggiore delle
 ipotesi \\(r^{2}_{n} = z \pm \varepsilon\\) e $$r_{n} = \sqrt{z \pm \varepsilon}$$.
 Utilizzando gli sviluppi in serie di McLaurin e supponendo \\(\varepsilon\\)
 sufficientemente piccolo si ha che:
 
 $$\sqrt{z \pm \varepsilon} = \sqrt{z} \cdot \left( 1 \pm \dfrac{\varepsilon}{2z} + \mathcal{O}(\varepsilon^{2}) \right)$$
 
-* Quindi la differenze in valore assoluto tra \\( r_{n} \\) e \\( \sqrt{z} \\) è al primo ordine $$\mathcal{O}(\varepsilon)$$:
+* Quindi la differenze in valore assoluto tra \\( r_{n} \\) e \\( \sqrt{z} \\) è al primo ordine:
 
-$$ \left|\sqrt{z} - \varepsilon\right| = \dfrac{\varepsilon}{2 \sqrt{z}} < \varepsilon $$
+$$ \left|\sqrt{z} - \varepsilon\right| \quad \overset{\mathcal{O}(\varepsilon)}{=} \quad \dfrac{\varepsilon}{2 \sqrt{z}} < \varepsilon $$
