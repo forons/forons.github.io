@@ -7,8 +7,8 @@ url: http://disi.unitn.it/~consonni
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    redcarpet
+permalink: /:categories/:title/
+markdown: kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass

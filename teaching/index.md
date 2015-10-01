@@ -24,7 +24,7 @@ del CdL triennale in matematica.
   <p align="right">
     <a id="Slide da scaricare in formato PDF" href="./slides/InfMat_02.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a>
   </p>
-  _Errata:_ c'era un errore nelle slide relative al metodo di Newton per il calcolo della radice quadra, ho corretto le slides e pubblicato un <a href="/notes/note-metodo-newton/">post con dei chiarimenti</a> in merito all'esercizio.
+  _Errata:_ c'era un errore nelle slide relative al metodo di Newton per il calcolo della radice quadra, ho corretto le slides e pubblicato un <a href="./note-metodo-newton/">post con dei chiarimenti</a> in merito all'esercizio.
 
 ---
 

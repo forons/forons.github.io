@@ -21,22 +21,16 @@ Mi sono state fatte alcune domande e mi è stato segnalato un errore rispetto
 all'esercizio per il calcolo della radice quadrata di un numero con il metodo di
 Newton presentato a lezione il 30/09/2015. Condivido qui le risposte:
 
-*  per errore le slide relative al metodo di Newton riportavano che la serie
-convergeva erroneamente al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\)
-invece la successione converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero
-\\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
-Mi scuso per la svista, ora le
-<a id="Slide da scaricare in formato PDF" href="./slides/InfMat_02.pdf">slides</a>
-sono corrette.
+*  per errore le slide relative al metodo di Newton riportavano che la serie convergeva
+erroneamente al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\) invece la successione
+converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
+Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> sono corrette.
 
-* Per alcuni valori di $z$ del quale calcolare la radice quadrata, partendo dal
-valore \\(x_0 =  0.5\\) si ottiene un comportamento oscillatorio, ovvero la
-successione continua a "saltare" tra due valori.
-In particolare, per esempio, quando \\(z = 20\\) si ha
-\\(\{x_n\} = 1/2, -1/2, 1/2, -1/2, \dots\\).
+* Per alcuni valori di $z$ del quale calcolare la radice quadrata, partendo dal valore $x_0 =  0.5$
+si ottiene un comportamento oscillatorio, ovvero la successione continua a "saltare" tra due valori.
+In particolare, per esempio, quando $$z = 20$$ si ha $$\{x_n\} = 1/2, -1/2, 1/2, -1/2, \dots$$.
 Questo tipo di problemmiè tipico dei processi iterativi processi iterativi. 
-Nello specifico, risolvendo il sistema di equazioni descritto dal metodo per
-\\(z = 20\\):
+Nello specifico, risolvendo il sistema di equazioni descritto dal metodo per $$z = 20$$
 
 $$
 \begin{equation*}
@@ -60,7 +54,7 @@ $$
 
 * Le soluzioni sono i valori per cui la serie oscilla (e per quanto riguarda le
 prime due coppie di risultati, come sottocaso, si trovano anche le soluzioni
-che sono punto fisso ovvero i \\(z = - 1/\sqrt{20}\\) e \\(z = 1/\sqrt{20}\\)).
+che sono punto fisso ovvero i \\(z = - 1/\sqrt(20)\\) e \\(z = 1/\sqrt(20)\\)).
 
 * In realtà la cosa più furba da fare non è iniziare da un valore arbitrario
 (come \\(0.5\\)) ma da un valore più vicino al risultato di modo da ridurre i
