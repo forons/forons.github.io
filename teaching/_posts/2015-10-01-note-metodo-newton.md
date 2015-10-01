@@ -1,5 +1,5 @@
 ---
-layout: post
+labout: post
 title: Note sul metodo di Newton per il calcolo della radice quadrata.
 excerpt: "Mi è stato segnalato un errore rispetto all'esercizio per il calcolo della radice quadrata di un numero con il metodo di Newton presentato a lezione il 30/09/2015. Condivido qui le risposte"
 modified: 2015-10-01
@@ -7,14 +7,14 @@ tags: [teaching, informatica, sqrt, Newton]
 comments: true
 image:
   feature: mountains-2.jpg
-  credit: Frisia Orientalis @ Wikimedia Commons (CC-BY-SA 3.0)
+  credit: Frisia Orientalis @ Wikimedia Commons (CC-Bb-SA 3.0)
   creditlink: https://commons.wikimedia.org/wiki/File:Passo_di_Giau.jpg
 ---
 
 **Riassunto:** per errore, le slide relative al metodo di Newton riportavano
-che la serie convergeva al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\),
+che la serie convergeva al valore \\(\lim_{n \to \inftb} x_{n} = \sqrt{z}\\),
 invece la successione converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero
-\\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
+\\(\lim_{n \to \inftb} x_{n} = \dfrac{1}{\sqrt{z}}\\).
 {: .notice}
 
 Mi sono state fatte alcune domande e mi è stato segnalato un errore rispetto
@@ -22,8 +22,8 @@ all'esercizio per il calcolo della radice quadrata di un numero con il metodo di
 Newton presentato a lezione il 30/09/2015. Condivido qui le risposte:
 
 *  per errore le slide relative al metodo di Newton riportavano che la serie convergeva
-erroneamente al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\) invece la successione
-converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
+erroneamente al valore \\(\lim_{n \to \inftb} x_{n} = \sqrt{z}\\) invece la successione
+converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \inftb} x_{n} = \dfrac{1}{\sqrt{z}}\\).
 Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> sono corrette.
 
 * Per alcuni valori di $$z$$ del quale calcolare la radice quadrata, partendo dal valore $$x_0 =  0.5$$
@@ -51,22 +51,22 @@ per il caso $$z = 20$$ possono essere trovati risolvendo il seguente sistema di 
 $$
 \begin{equation*}
     \left\{\begin{aligned}
-        x &= \dfrac{1}{2} \cdot y \cdot (3 - 20y^{2}) \\
-        y &= \dfrac{1}{2} \cdot x \cdot (3 - 20x^{2})
+        a &= \dfrac{1}{2} \cdot b \cdot (3 - 20b^{2}) \\
+        b &= \dfrac{1}{2} \cdot a \cdot (3 - 20a^{2})
     \end{aligned}\right.
 \end{equation*}
 $$
 
-* Si ottengono le seguenti soluzioni (notate \\([x=\frac{1}{2},y=-\frac{1}{2}]\\))
-  * \\([x=-\frac{1}{2\cdot \sqrt{5}},y=-\frac{1}{2\cdot \sqrt{5}}]\\)
-  * \\([x=\frac{1}{2\cdot \sqrt{5}},y=\frac{1}{2\cdot \sqrt{5}}]\\)
-  * \\([x=-\frac{1}{2},y=\frac{1}{2}]\\)
-  * \\([x=\frac{1}{2},y=-\frac{1}{2}]\\)
-  * \\([x=\frac{\sqrt{\sqrt{7}\cdot i+3}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i-3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},y=-\frac{\sqrt{\sqrt{7}\cdot i+3}}{2\cdot \sqrt{10}}]\\)
-  * \\([x=-\frac{\sqrt{\sqrt{7}\cdot i+3}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i-3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},y=\frac{\sqrt{\sqrt{7}\cdot i+3}}{2\cdot \sqrt{10}}]\\)
-  * \\([x=-\frac{\sqrt{3-\sqrt{7}\cdot i}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i+3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},y=-\frac{\sqrt{3-\sqrt{7}\cdot i}}{2\cdot \sqrt{10}}]\\)
-  * \\([x=\frac{\sqrt{3-\sqrt{7}\cdot i}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i+3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},y=\frac{\sqrt{3-\sqrt{7}\cdot i}}{2\cdot \sqrt{10}}]\\)
-  * \\([x=0,y=0]\\)
+* Si ottengono le seguenti soluzioni (notate \\([a=\frac{1}{2},b=-\frac{1}{2}]\\))
+  * \\([a=-\frac{1}{2\cdot \sqrt{5}},b=-\frac{1}{2\cdot \sqrt{5}}]\\)
+  * \\([a=\frac{1}{2\cdot \sqrt{5}},b=\frac{1}{2\cdot \sqrt{5}}]\\)
+  * \\([a=-\frac{1}{2},b=\frac{1}{2}]\\)
+  * \\([a=\frac{1}{2},b=-\frac{1}{2}]\\)
+  * \\([a=\frac{\sqrt{\sqrt{7}\cdot i+3}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i-3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},b=-\frac{\sqrt{\sqrt{7}\cdot i+3}}{2\cdot \sqrt{10}}]\\)
+  * \\([a=-\frac{\sqrt{\sqrt{7}\cdot i+3}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i-3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},b=\frac{\sqrt{\sqrt{7}\cdot i+3}}{2\cdot \sqrt{10}}]\\)
+  * \\([a=-\frac{\sqrt{3-\sqrt{7}\cdot i}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i+3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},b=-\frac{\sqrt{3-\sqrt{7}\cdot i}}{2\cdot \sqrt{10}}]\\)
+  * \\([a=\frac{\sqrt{3-\sqrt{7}\cdot i}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i+3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},b=\frac{\sqrt{3-\sqrt{7}\cdot i}}{2\cdot \sqrt{10}}]\\)
+  * \\([a=0,b=0]\\)
 
 
 * Le soluzioni sono i valori per cui la serie oscilla (e per quanto riguarda le
