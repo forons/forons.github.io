@@ -69,3 +69,17 @@ ovvero usate come valore di \\(x_0\\) il reciproco di quel numero.
 valore di \\(x\\) arrotondato all'intero più piccolo).  
 
 $$ x_0 = \dfrac{1}{\lfloor x \rfloor} $$
+
+* Rispetto all'errore compiuto dal metodo, ovvero su come interpretare il
+valore di \\(\varepsilon\\) che compare nel metodo si può notare che definendo
+\\(r_{n} = \dfrac{1}{x_{n}}\\) la condizione di terminazione si può scrivere
+come $$\left|r^{2}_{n} - z\right| = \varepsilon$$ ovvero nella peggiore delle
+ipotesi \\(r^{2}_{n} = z \pm \varepsilon\\) e $$r_{n} = \sqrt{z \pm \varepsilon}$$.
+Utilizzando gli sviluppi in serie di McLaurin e supponendo \\(\varepsilon\\)
+sufficientemente piccolo si ha che:
+
+$$\sqrt{z \pm \varepsilon} = \sqrt{z} \cdot \left( 1 \pm \dfrac{\varepsilon}{2z} + \mathcal{O}(\varepsilon^{2}) \right)$$
+
+* Quindi la differenze in valore assoluto tra \\( r_{n} \\) e \\( \sqrt{z} \\) è al primo ordine $$\mathcal{O}(\varepsilon)$$:
+
+$$ \left|\sqrt{z} - \varepsilon\right| = \dfrac{\varepsilon}{2 \sqrt{z}} < \varepsilon $$
