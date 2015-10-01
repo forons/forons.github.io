@@ -30,7 +30,7 @@ Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{
 si ottiene un comportamento oscillatorio, ovvero la successione continua a "saltare" tra due valori.
 In particolare, per esempio, quando $$z = 20$$ si ha $$\{x_n\} = 1/2, -1/2, 1/2, -1/2, \dots$$.
 Questo tipo di problemi è tipico dei processi iterativi. 
-Nello specifico, risolvendo il sistema di equazioni descritto dal metodo per $$z = 20$$
+Nello specifico, partendo dal sistema di equazioni iniziale:
 
 $$
 \begin{equation*}
@@ -38,6 +38,22 @@ $$
   & x_0 =  \dfrac{1}{2} \\
   & x_{n +1} =  \dfrac{1}{2}  \cdot {x_n} (3  - zx^2_n)
   \end{aligned}\right.
+\end{equation*}
+$$
+
+si deve descrivere la situazione in cui si forma un ciclo. Se la successione assume 
+il valore $$a$$ e da questo $$a \rightarrow b$$, ed inoltre da $$b$$ si ha 
+$$b \rightarrow a$$ allora la successione diventa \\(\{ x_n = \dots, a, b, a, b, a, \dots \}\\).
+Questa situazione è un _ciclo_ di lunghezza due.  I possibili cicli di lunghezza due
+per il caso $$z = 20$$ possono essere trovati risolvendo il seguente sistema di equazioni
+(in generale si può trattare $$z$$ come un parametro):
+
+$$
+\begin{equation*}
+    \left\{\begin{aligned}
+        x &= \dfrac{1}{2} \cdot y \cdot (3 - 20y^{2}) \\
+        y &= \dfrac{1}{2} \cdot x \cdot (3 - 20x^{2})
+    \end{aligned}\right.
 \end{equation*}
 $$
 
@@ -52,15 +68,16 @@ $$
   * \\([x=\frac{\sqrt{3-\sqrt{7}\cdot i}\cdot \left( \sqrt{2}\cdot \sqrt{5}\cdot \sqrt{7}\cdot i+3\cdot \sqrt{2}\cdot \sqrt{5}\right) }{80},y=\frac{\sqrt{3-\sqrt{7}\cdot i}}{2\cdot \sqrt{10}}]\\)
   * \\([x=0,y=0]\\)
 
+
 * Le soluzioni sono i valori per cui la serie oscilla (e per quanto riguarda le
 prime due coppie di risultati, come sottocaso, si trovano anche le soluzioni
-che sono punto fisso ovvero i \\(z = - 1/\sqrt(20)\\) e \\(z = 1/\sqrt(20)\\)).
+che sono punto fisso ovvero \\(z = - 1/\sqrt{20}\\) e \\(z = 1/\sqrt{20}\\)).
 
 * In realtà la cosa più furba da fare non è iniziare da un valore arbitrario
 (come \\(0.5\\)) ma da un valore più vicino al risultato di modo da ridurre i
 tempi di convergenza e da evitare  questi problemi. Nello specifico è semplice
 calcolare la parte intera di una radice quadrata (ovvero l'intero \\(x\\) più
-grande tale che \\(x*x < z\\)). In particolare in questo caso \\(\sqrt(20) > 4\\),
+grande tale che \\(x^2 < z\\)). In particolare in questo caso \\(\sqrt{20} > 4\\),
 quindi è bene partire da \\(1/4 = 0.25\\). 
 Quindi, quando scegliete il valore iniziale calcolate (a mente) l'intero più
 grande \\(x\\) tale per cui \\(x^2 < z\\) e inizializzate la successione,
@@ -71,9 +88,9 @@ valore di \\(x\\) arrotondato all'intero più piccolo).
 $$ x_0 = \dfrac{1}{\lfloor x \rfloor} $$
 
 * Rispetto all'errore compiuto dal metodo, ovvero su come interpretare il
-valore di \\(\varepsilon\\) che compare nel metodo si può notare che definendo
-\\(r_{n} = \dfrac{1}{x_{n}}\\) la condizione di terminazione si può scrivere
-come $$\left|r^{2}_{n} - z\right| = \varepsilon$$ ovvero nella peggiore delle
+valore di \\(\varepsilon\\) si può notare che definendo \\(r_{n} = \dfrac{1}{x_{n}}\\) 
+la condizione di terminazione si può scrivere come
+$$\left|r^{2}_{n} - z\right| = \varepsilon$$ ovvero nella peggiore delle
 ipotesi \\(r^{2}_{n} = z \pm \varepsilon\\) e $$r_{n} = \sqrt{z \pm \varepsilon}$$.
 Utilizzando gli sviluppi in serie di McLaurin e supponendo \\(\varepsilon\\)
 sufficientemente piccolo si ha che:
