@@ -26,10 +26,10 @@ erroneamente al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\) invece la succ
 converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
 Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> sono corrette.
 
-* Per alcuni valori di $z$ del quale calcolare la radice quadrata, partendo dal valore $x_0 =  0.5$
+* Per alcuni valori di $$z$$ del quale calcolare la radice quadrata, partendo dal valore $$x_0 =  0.5$$
 si ottiene un comportamento oscillatorio, ovvero la successione continua a "saltare" tra due valori.
 In particolare, per esempio, quando $$z = 20$$ si ha $$\{x_n\} = 1/2, -1/2, 1/2, -1/2, \dots$$.
-Questo tipo di problemmiè tipico dei processi iterativi processi iterativi. 
+Questo tipo di problemi è tipico dei processi iterativi. 
 Nello specifico, risolvendo il sistema di equazioni descritto dal metodo per $$z = 20$$
 
 $$
