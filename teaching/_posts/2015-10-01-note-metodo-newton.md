@@ -44,7 +44,7 @@ $$
 si deve descrivere la situazione in cui si forma un ciclo. Se la successione assume 
 il valore $$a$$ e da questo $$a \rightarrow b$$, ed inoltre da $$b$$ si ha 
 $$b \rightarrow a$$ allora la successione diventa \\(\{ x_n = \dots, a, b, a, b, a, \dots \}\\).
-Questa situazione è un _ciclo_ di lunghezza due.  I possibili cicli di lunghezza due
+In situazione si è formato un _ciclo_ di lunghezza due.  I possibili cicli di lunghezza due
 per il caso $$z = 20$$ possono essere trovati risolvendo il seguente sistema di equazioni
 (in generale si può trattare $$z$$ come un parametro):
 
@@ -71,7 +71,7 @@ $$
 
 * Le soluzioni sono i valori per cui la serie oscilla (e per quanto riguarda le
 prime due coppie di risultati, come sottocaso, si trovano anche le soluzioni
-che sono punto fisso ovvero \\(z = - 1/\sqrt{20}\\) e \\(z = 1/\sqrt{20}\\).
+che sono punto fisso ovvero \\(z = - 1/\sqrt{20}\\) e \\(z = 1/\sqrt{20}\\)).
 
 * in generale, utilizzando per \\(x_0\\)  un valore più vicino al risultato riduce i
 tempi di convergenza e da evitare  questi problemi. Nello specifico è semplice

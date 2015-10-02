@@ -42,9 +42,9 @@ rispetto alle $$y$$.
 
 Si tratta comunque di un dettaglio perché:
 
-1. come detto sopra, è un errore di computazione dovuto al fatto che i computer
+* come detto sopra, è un errore di computazione dovuto al fatto che i computer
    reali hanno una quantità finita di memoria.
-2. In alcuni casi è possibile esprimere $$\varepsilon_y$$ in funzione di $$\varepsilon_x$$
+* In alcuni casi è possibile esprimere $$\varepsilon_y$$ in funzione di $$\varepsilon_x$$
 cioè è possibile scegliere un valore di $$\varepsilon_y$$ tale per cui si può
 essere sicuri che l'errore sulle $$x$$ sia comunque più piccolo di $$\varepsilon_x$$.
 In pratica, con la funzione $$f(x) = x^3 - x -2$$ data per esercizio era possibile
