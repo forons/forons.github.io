@@ -2,7 +2,7 @@
 layout: post
 title: Note sul metodo della bisezione per trovare gli zeri di una funzione continua.
 excerpt: "Una precisazione sul del metodo della bisezione."
-modified: 2015-10-01
+modified: 2015-10-02
 tags: [teaching, informatica, sqrt, Newton]
 comments: true
 image:

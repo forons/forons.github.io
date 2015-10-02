@@ -26,6 +26,8 @@ del CdL triennale in matematica.
   </p>
   _Errata:_ c'era un errore nelle slide relative al metodo di Newton per il calcolo della radice quadra, ho corretto le slides e pubblicato un <a href="./note-metodo-newton/">post con dei chiarimenti</a> in merito all'esercizio.
 
+  Ho pubblicato una nota sul <a href="./note-metodo-bisezione/">metodo della bisezione</a> con alcuni dettagli aggiuntivi rispetto a quanto detto a lezione.
+
 ---
 
 ## Domande?
