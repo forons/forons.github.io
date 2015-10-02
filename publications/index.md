@@ -11,8 +11,6 @@ image:
 
 These are my publications.
 
-## Other works
-
 These works have been developed while I was at [Università degli studi di Milano-Bicocca](http://www.unimib.it),
 at [Fondazione Bruno Kessler](http://www.fbk.eu) or during projects done by [Wikimedia Italia](http://www.wikimedia.it).
 

@@ -11,9 +11,9 @@ image:
   creditlink: https://commons.wikimedia.org/wiki/File:Passo_di_Giau.jpg
 ---
 
-**Riassunto:** per errore, le slide relative al metodo di Newton riportavano
-che la serie convergeva al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\),
-invece la successione converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero
+**Riassunto:** per errore, le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> relative al metodo di Newton riportavano che la serie convergeva al
+valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\), invece la successione
+converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero
 \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
 {: .notice}
 
@@ -94,8 +94,9 @@ ipotesi \\(r^{2}_{n} = z \pm \varepsilon\\) e $$r_{n} = \sqrt{z \pm \varepsilon}
 Utilizzando gli sviluppi in serie di McLaurin e supponendo \\(\varepsilon\\)
 sufficientemente piccolo si ha che:
 
-$$\sqrt{z \pm \varepsilon} = \sqrt{z} \cdot \left( 1 \pm \dfrac{\varepsilon}{2z} + \mathcal{O}(\varepsilon^{2}) \right)$$
+$$\sqrt{z \pm \varepsilon} = \sqrt{z} \cdot \left( 1 \pm \dfrac{\varepsilon}{2z} + \mathcal{O}\left(\varepsilon^{2}\right) \right)$$
 
-* Quindi la differenze in valore assoluto tra \\( r_{n} \\) e \\( \sqrt{z} \\) è al primo ordine:
+* Quindi la differenze in valore assoluto tra \\( r_{n} \\) e \\( \sqrt{z} \\)
+è al primo ordine (con \\(z>1\\)):
 
-$$ \left|\sqrt{z} - \varepsilon\right| \quad \overset{\mathcal{O}(\varepsilon)}{=} \quad \dfrac{\varepsilon}{2 \sqrt{z}} < \varepsilon $$
+$$ \left|\sqrt{z} - \varepsilon\right| \; \overset{\mathcal{O}(\varepsilon)}{=} \; \dfrac{\varepsilon}{2 \sqrt{z}} < \varepsilon $$
