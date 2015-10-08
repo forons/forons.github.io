@@ -41,10 +41,10 @@ $$
 \end{equation*}
 $$
 
-si deve descrivere la situazione in cui si forma un ciclo. Se la successione assume 
+si deve descrivere la situazione in cui si forma un _ciclo_. Se la successione assume 
 il valore $$a$$ e da questo $$a \rightarrow b$$, ed inoltre da $$b$$ si ha 
 $$b \rightarrow a$$ allora la successione diventa \\(\{ x_n = \dots, a, b, a, b, a, \dots \}\\).
-In situazione si è formato un _ciclo_ di lunghezza due.  I possibili cicli di lunghezza due
+In situazione si è formato un ciclo di lunghezza due.  I possibili cicli di lunghezza due
 per il caso $$z = 20$$ possono essere trovati risolvendo il seguente sistema di equazioni
 (in generale si può trattare $$z$$ come un parametro):
 
