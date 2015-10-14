@@ -11,7 +11,7 @@ image:
   creditlink: https://commons.wikimedia.org/wiki/File:Passo_di_Giau.jpg
 ---
 
-**Riassunto:** per errore, le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> relative al metodo di Newton riportavano che la serie convergeva al
+**Riassunto:** per errore, le <a id="Slide da scaricare in formato PDF" href="{{ site.baseurl }}/teaching/slides/InfMat_02.pdf">slides</a> relative al metodo di Newton riportavano che la serie convergeva al
 valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\), invece la successione
 converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero
 \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
@@ -24,7 +24,7 @@ Newton presentato a lezione il 30/09/2015. Condivido qui le risposte:
 *  per errore le slide relative al metodo di Newton riportavano che la serie convergeva
 erroneamente al valore \\(\lim_{n \to \infty} x_{n} = \sqrt{z}\\) invece la successione
 converge a \\(\dfrac{1}{\sqrt{z}}\\) ovvero \\(\lim_{n \to \infty} x_{n} = \dfrac{1}{\sqrt{z}}\\).
-Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a> sono corrette.
+Mi scuso per la svista, ora le <a id="Slide da scaricare in formato PDF" href="{{ site.baseurl }}/teaching/slides/InfMat_02.pdf">slides</a> sono corrette.
 
 * Per alcuni valori di $$z$$ del quale calcolare la radice quadrata, partendo dal valore $$x_0 =  0.5$$
 si ottiene un comportamento oscillatorio, ovvero la successione continua a "saltare" tra due valori.

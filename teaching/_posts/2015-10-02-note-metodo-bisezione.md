@@ -15,7 +15,7 @@ Approfitto di una domanda che ho ricevuto rispetto al metodo della bisezione per
 elaborare meglio un dettaglio che ho omesso a lezione.
 
 
-Lo pseudocodice fornito nelle <a id="Slide da scaricare in formato PDF" href="{{ site.url }}/teaching/slides/InfMat_02.pdf">slides</a>
+Lo pseudocodice fornito nelle <a id="Slide da scaricare in formato PDF" href="{{ site.baseurl }}/teaching/slides/InfMat_02.pdf">slides</a>
 riporta alla linea 5 il controllo:
 
 $$\mathit{\mathbf{if}} \; ( f(c) = 0) \lor ((b - a)/2) < \varepsilon ) \; \mathit{\mathbf{then}} \dots$$

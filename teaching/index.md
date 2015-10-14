@@ -18,18 +18,18 @@ del CdL triennale in matematica.
 
 * **Lezione 01**: introduzione a Java, variabili, operatori, Eclipse, istruzioni condizionali.
   <p align="right">
-    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_01.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione01.zip">soluzioni</a>
+    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_01.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.baseurl }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione01.zip">soluzioni</a>
   </p>
 * **Lezione 02**: Iterazioni e cicli, ciclo while, ciclo for.
   <p align="right">
-    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_02.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione02.zip">soluzioni</a>
+    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_02.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.baseurl }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione02.zip">soluzioni</a>
   </p>
   _Errata:_ c'era un errore nelle slide relative al metodo di Newton per il calcolo della radice quadra, ho corretto le slides e pubblicato un <a href="./note-metodo-newton/">post con dei chiarimenti</a> in merito all'esercizio.
 
   Ho pubblicato una nota sul <a href="./note-metodo-bisezione/">metodo della bisezione</a> con alcuni dettagli aggiuntivi rispetto a quanto detto a lezione.
 * **Lezione 03**: funzioni e procedure, funzioni ricorsive, variabili locali e globali, array e matrici
   <p align="right">
-    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_03.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.url }}/images/github-circled.png" style="width: 24px" /></a>
+    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_03.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.baseurl }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/codice/Lezione03_codice_lezione.zip">codice</a>
   </p>
 ---
 

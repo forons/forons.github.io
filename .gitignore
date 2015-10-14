@@ -1,3 +1,4 @@
+_config.dev.yml
 .environment
 _site
 .sass-cache
