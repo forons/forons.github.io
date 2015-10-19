@@ -25,26 +25,6 @@ else
 
 fi
 
-NFLAG=""
-SFLAG=""
-
-while getopts ":ns" opt; do
-  case $opt in
-    s)
-      SFLAG="--size-only"
-      ;;
-    n)
-      NFLAG="-n"
-      ;;
-    \?)
-      echo "Invalid option: -$OPTARG" >&2
-      echo "Valid Options: " >&2
-      echo "  -s    :   --size-only" >&2
-      echo "  -n   :   perform dry-run" >&2
-      ;;
-  esac
-done
-
 # Set the environment by loading from the file "environment" in the base directory
 DIR="$( cd "$( dirname $( dirname "$0" ) )" && pwd)"
 source "$DIR/.environment"
