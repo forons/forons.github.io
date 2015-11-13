@@ -33,7 +33,7 @@ del CdL triennale in matematica.
   </p>
 * **Lezione 04**: lettura di input da terminale, lettura e scrittura di files.
   <p align="right">
-    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_04.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.baseurl }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/codice/Lezione04_codice_lezione.zip">codice</a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione04_soluzioni_parteI.zip">soluzioni (parte I)</a> - <a href="./labinfo-mat_2015-2016/esercizi/">materiali per esercizi</a> - <a href="./labinfo-mat_2015-2016/codice/Lezione04_codice_lezione_lezione.zip">codice (completo)</a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione04.zip">soluzioni complete</a>
+    <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_04.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.baseurl }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/codice/Lezione04_codice_lezione.zip">codice</a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione04_soluzioni_parteI.zip">soluzioni (parte I)</a> - <a href="./labinfo-mat_2015-2016/esercizi/">materiali per esercizi</a> - <a href="./labinfo-mat_2015-2016/codice/Lezione04_codice_lezione.zip">codice (completo)</a> - <a href="./labinfo-mat_2015-2016/soluzioni/Lezione04.zip">soluzioni complete</a>
   </p>
 * **Lezione 05**: Introduzione all'uso di classi e oggetti come strutture dati, utilizzo del debugger.
   <p align="right">
