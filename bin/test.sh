@@ -40,7 +40,7 @@ jekyll build
 echo ""
 echo "Launching standalone server"
 echo ""
-echo "See http://$TEST_HOSTNAME:$TEST_PORT$TEST_BASEURL"
+echo "See http://$TEST_HOSTNAME:$TEST_PORT$TEST_BASEURL/"
 echo ""
 jekyll serve --config "$TEST_CONFIG" --port "$TEST_PORT" --watch
 
