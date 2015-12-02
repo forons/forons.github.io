@@ -35,7 +35,7 @@ echo ""
 echo "Regenerating static files with jekyll"
 echo ""
 rvm use default
-jekyll build
+jekyll build --trace
 
 echo ""
 echo "Launching standalone server"
