@@ -160,7 +160,7 @@ From the Linux man page: man ascii
 Essendo un codice a 7 bit, ogni carattere del codice ASCII poteva essere salvato
 in un byte (8 bit) che è l'unità di base gestita dai processori dei computer
 dell'epoca (e attuali), inoltre la maggioranza delle codifiche contengono
-l'ASCII come sottoinsieme nei primi 7 bit.
+l'ASCII come sottoinsieme nei primi 7 bit[^1].
 
 Possiamo crare un file di testo (con un programma come
 [GEdit](https://wiki.gnome.org/Apps/Gedit) su Linux,
@@ -176,7 +176,7 @@ Salvando il file, avrà una dimensione di 5 bytes (su sistemi DOS/Windows) o 6
 bytes (su sistemi *nix). 
 
 Il file verrà salvato e codificato usando la _codifica predefinita di sistema_,
-che dipende dalle impostazioni della lingua (_locale_, in inglese)[^1].
+che dipende dalle impostazioni della lingua (_locale_, in inglese)[^2].
 Su sistemi che usano lingue occidentali la codifica è solitamente l'[ISO-8859-1](https://it.wikipedia.org/wiki/ISO/IEC_8859-1)
 oppure [UTF-8](https://it.wikipedia.org/wiki/UTF-8), allora ogni carattere ha esattamente
 la dimensione di un byte, quindi _in questo caso_ la dimensione del file in
@@ -184,8 +184,8 @@ bytes equivarrà al numero di caratteri.
 
 Tutti i caratteri sono codificabili in ASCII, quindi la dimensione è data da un byte
 per ciascuna lettera e 2 bytes (su Windows) o 1 byte (su *nix) per il terminatore
-di riga (il carattere di "a capo") (la spiegazione di questa differenza è il tema
-della prossima sezione)[^2].
+di riga (il carattere di "a capo").la spiegazione di questa differenza è il tema
+della prossima sezione.
 
 ### Oltre ASCII
 
@@ -532,8 +532,8 @@ $$5001 - 136 \cdot 2 - 80 = 4849$$.
 Esattamente come nel caso precedente.
 
 
-[^1]: la codifica di sistema dipende dal sistema operativo che state utilizzando e dalle impostazioni della lingua. I sistemi *nix generalmente utilizzano UTF-8, mentre Windows [utilizza internamente UTF-16 low-endian](https://superuser.com/questions/294219/what-are-the-differences-between-linux-and-windows-txt-files-unicode-encoding).
-[^2]: Gli encoding che includono ASCII nei loro primi 8 bit vengono detti ASCII compatibili (_ASCII-compatible_).
+[^1]: Gli encoding che includono ASCII nei loro primi 8 bit vengono detti ASCII compatibili (_ASCII-compatible_).
+[^2]: la codifica di sistema dipende dal sistema operativo che state utilizzando e dalle impostazioni della lingua. I sistemi *nix generalmente utilizzano UTF-8, mentre Windows [utilizza internamente UTF-16 low-endian](https://superuser.com/questions/294219/what-are-the-differences-between-linux-and-windows-txt-files-unicode-encoding).
 [^3]: Con _internazionalizzazione_ si intende la traduzione dei messaggi di un programma (come per esempio le voci di menu) in un'altra lingua. La _localizzazione_ invece è il processo di adattamento di un software ad un contesto internazionale. Per esempio, l'internazionalizzazione consiste nel tradurre la voce di menu "Help" in "Aiuto" mentre la localizzazione è la possibilità di visualizzare, per esempio, delle lunghezze in metri invece che in iarde o piedi.
 [^4]: Il paragrafo seguente è tratto da ["The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html) di Joel Spolsky
 [^5]: v. la nota 3.
