@@ -39,6 +39,10 @@ del CdL triennale in matematica.
   <p align="right">
     <a id="Slide da scaricare in formato PDF" href="./labinfo-mat_2015-2016/slides/InfMat_05.pdf">slides</a> - <a id="Sorgente delle slides su GitHub" href="https://github.com/CristianCantoro/labinfo-mat"><img src="{{ site.baseurl }}/images/github-circled.png" style="width: 24px" /></a> - <a href="./labinfo-mat_2015-2016/codice/Lezione05_codice_lezione.zip">codice</a>
   </p>
+
+* ***Progetto***: la descrizione del progetto è disponibile sul
+[sito del prof. Zunino](http://disi.unitn.it/~zunino/teaching/informatica/progetto2015/progetto2015.html).
+
 ---
 
 ## Domande?
