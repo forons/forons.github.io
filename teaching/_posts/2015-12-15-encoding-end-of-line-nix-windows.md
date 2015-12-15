@@ -223,16 +223,16 @@ problemi per l'[internazionalizzazione e la localizzazione](https://en.wikipedia
 dei software[^3]. Questa situazione creava problemi anche per lo scambio di file:
 un file creato su un sistema con un dato encoding, passato su un altro sistema veniva
 decodificato in maniera errata. Per esempio[^4], su alcuni PC il codice carattere 130
-viene visualizzato come `é`, ma sui computer venduti in Israele veniva visualizzato
+veniva visualizzato come `é`, ma sui computer venduti in Israele veniva visualizzato
 come la lettera dell'alfabeto ebraico Gimel (`ג`), e quindi la parola `résumé`
 scritta in un documento con un _locale_ impostato all'inglese americano veniva
-visualizzata come `rגsumגs`. 
+visualizzata come `rגsumג`. 
 Per altre lingue, come per esempio il russo, erano (e sono tuttora) disponibili
 svariati encoding diversi e quindi non era possibile scambiarsi documenti in russo
 in modo affidabile.
 
 Tutti questi encoding[^5], che facevano uso delle combinazioni date dall'ottavo bit
-(quindi i numeri da 128 a 255), furono codificate in uno
+(quindi i numeri da 128 a 255), furono riuniti in uno
 [standard ANSI noto come ISO 8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1)
 nel 1985. In questo standard tutti i codici inferiori a 128 erano identici (e 
 coincidevano sostanzialmente con l'ASCII) mentre venivano descritti i diversi modi
@@ -247,7 +247,7 @@ diversi.
 
 Per questo motivo fu inventato l'encoding  _Unicode_, che ***non è un encoding***
 di per sè, ma un sistema di rappresentare i caratteri. In Unicode, ogni carattere
-viene rappresentato da un numero detto _code point_) che a sua volta può essere
+viene rappresentato da un numero detto _code point_ che a sua volta può essere
 codificato con encoding diversi. 
 
 Un _carattere unicode_ è rappresentato come un numero preceduto da "U+" pertanto
