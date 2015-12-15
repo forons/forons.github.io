@@ -338,7 +338,7 @@ combinazione), per rappresentare il ritorno a capo:
 
 Questi due caratteri indicano rispettivamente una "nuova linea" e il "ritorno del carrello".
 Per chi di voi abbia mai utilizzato una macchina da scrivere questi due caratteri
-corrispondevano a due operazioni diverse (solitamente consecutive) fatte sulla "leva di ritorno del carrello":
+corrispondevano a due operazioni diverse (solitamente consecutive) fatte sulla "leva del ritorno a carrello":
 spingendo la leva si faceva girare il rullo che alzava il foglio, rendendo 
 disponibile una nuova riga (_line feed_), al termine della corsa della leva si
 continuava a spingere sulla stessa leva per fare tornare il carrello alla
