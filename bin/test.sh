@@ -35,13 +35,13 @@ echo ""
 echo "Regenerating static files with jekyll"
 echo ""
 rvm use default
-jekyll build --trace
+jekyll build --drafts --trace
 
 echo ""
 echo "Launching standalone server"
 echo ""
 echo "See http://$TEST_HOSTNAME:$TEST_PORT$TEST_BASEURL/"
 echo ""
-jekyll serve --config "$TEST_CONFIG" --port "$TEST_PORT" --watch
+jekyll serve --config "$TEST_CONFIG" --port "$TEST_PORT" --drafts --watch
 
 echo ""
