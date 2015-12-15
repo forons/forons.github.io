@@ -346,7 +346,7 @@ posizione iniziale (_carriage return_).
 
 <table class="image">
 <tr><td style="text-align:center"><img src="../images/macchina_da_scrivere.jpg" alt="Macchina da scrivere"/></td></tr>
-<caption align="bottom">Immagine tratta da (<a href="http://wwwcdf.pd.infn.it/AppuntiLinux/220.jpg">Sezione INFN di Padova</a>)</caption>
+<caption align="bottom">Immagine tratta da <a href="http://wwwcdf.pd.infn.it/AppuntiLinux/220.jpg">INFN - sezione di Padova</a></caption>
 </table>
 
 Esistono quindi tre modi per indicare una terminazione di linea:
