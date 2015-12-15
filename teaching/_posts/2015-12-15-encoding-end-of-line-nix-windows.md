@@ -103,7 +103,7 @@ Il numero totale di caratteri (esclusi gli "a capo") è quindi 4849.
 ## Caratteri non ASCII e encoding
 
 Come detto a lezione, per salvare un file di testo su disco è necessario
-procedere alla sua "traduzione" (o _encoding_) una data
+procedere alla sua "traduzione" (o _encoding_) in una data
 [codifica di caratteri](https://it.wikipedia.org/wiki/Codifica_di_caratteri)
 (o _charset_).
 
