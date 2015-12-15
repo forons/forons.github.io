@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Encoding e caratteri "a capo" (End-Of-Line) su sistemi *nix e DOS.
+title: Encoding e caratteri a capo (End-Of-Line) su sistemi *nix e DOS.
 excerpt: "Come si calcola la dimensione di un file di testo in Java? cos'è l'encoding? Quali sono le differenze tra i  caratteri terminatori di linea (\"a capo\", o end-on-line (EOL)) su sisitemi Unix-like e DOS/Windows?"
 modified: 2015-12-15
 tags: [teaching, informatica, encoding, eol, newline, terminatori di riga, windows, dos, *nix, Linux, Mac]
