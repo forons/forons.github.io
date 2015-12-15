@@ -285,7 +285,7 @@ $$5001 - 136 - 8 - 8 = 4849$$
 che è esattamente lo stesso conteggio che si ottiene contando i singoli
 caratteri (esclusi i caratteri da a capo).
 
-In conclusione, ***non a senso gestire una stringa senza conoscere l'encoding che
+In conclusione, ***non ha senso gestire una stringa senza conoscere l'encoding che
 sta utilizzando***. Qualsiasi editor di testo moderno e non minimale dovrebbe
 permettervi di scegliere qual è l'encoding da utilizzare per salvare il vostro file
 di testo. UTF-8 è una buona scelta.
