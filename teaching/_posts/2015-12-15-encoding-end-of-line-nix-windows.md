@@ -159,7 +159,7 @@ From the Linux man page: man ascii
 
 Essendo un codice a 7 bit, ogni carattere del codice ASCII poteva essere salvato
 in un byte (8 bit) che è l'unità di base gestita dai processori dei computer
-dell'epocal (e attuali), inoltre la maggioranza delle codifiche contengono
+dell'epoca (e attuali), inoltre la maggioranza delle codifiche contengono
 l'ASCII come sottoinsieme nei primi 7 bit.
 
 Possiamo crare un file di testo (con un programma come
@@ -341,7 +341,7 @@ Per chi di voi abbia mai utilizzato una macchina da scrivere questi due caratter
 corrispondevano a due operazioni diverse (solitamente consecutive) fatte sulla "leva del ritorno a carrello":
 spingendo la leva si faceva girare il rullo che alzava il foglio, rendendo 
 disponibile una nuova riga (_line feed_), al termine della corsa della leva si
-continuava a spingere sulla stessa leva per fare tornare il carrello alla
+continuava a spingere sulla stessa per fare tornare il carrello alla
 posizione iniziale (_carriage return_).
 
 <table class="image">
