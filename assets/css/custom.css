@@ -1,0 +1,24 @@
+a.collapsible.active:before {
+    content: "▴";
+    vertical-align: super;
+}​
+
+a.collapsible {
+  content: "▴";
+  vertical-align: super;
+}
+
+a.collapsible.inactive:before {
+  content: "▾";
+  vertical-align: super;
+}
+
+div.collapsible {
+  display: none;
+  background: #F2F2F2;
+}
+
+div.collapsible.active {
+  display: block;
+  background: #F2F2F2;
+}
