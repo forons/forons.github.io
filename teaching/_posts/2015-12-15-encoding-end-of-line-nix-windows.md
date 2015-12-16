@@ -172,7 +172,7 @@ abcd↵
 </pre>
 (il simbolo ↵ indica "invio").
 
-Salvando il file, avrà una dimensione di 5 bytes (su sistemi DOS/Windows) o 6
+Salvando il file, avrà una dimensione di 6 bytes (su sistemi DOS/Windows) o 5
 bytes (su sistemi *nix). 
 
 Il file verrà salvato e codificato usando la _codifica predefinita di sistema_,
@@ -191,7 +191,7 @@ della prossima sezione.
 
 Se si usano caratteri non-ASCII questa equivalenza non è più vera.
 In generale, possiamo dire che per rappresentare caratteri non-ASCII è necessario
-più di un bite.
+più di un byte.
 
 Per esempio creiamo un file chiamato [`non-ascii.txt`](../labinfo-mat_2015-2016/esercizi/non-ascii.txt)
 con il seguente contenuto:
@@ -241,7 +241,7 @@ del sistema. Questi diversi sistemi sono stati chiamati "[code pages](https://en
 Per esempio, in Israele i sistemi DOS usavano la code page numero 862, mentre
 per il greco si usava la code page 737[^6].
 
-Il problema divenne ingestibile quando, con l'arrivo di internet divenne molto
+Il problema divenne ingestibile quando con l'arrivo di internet divenne molto
 semplice scambiarsi file che erano stati scritti su sistemi che usavano encoding
 diversi. 
 
@@ -325,7 +325,7 @@ di una riga di testo (e quindi non un vero e proprio carattere visibile sullo
 schermo).
 
 Piattaforme hardware e sistemi operativi diversi possono rappresentare il carattere di
-ritorno a capo in modi diversi. Come abbiamo visto per l'encongi, questo
+ritorno a capo in modi diversi. Come abbiamo visto per l'encoding, questo
 costituisce un problema quando è necessario lo scambio di dati tra sistemi che
 usano rappresentazioni differenti.
 
