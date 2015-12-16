@@ -6,7 +6,7 @@ modified: 2015-12-03T04:00:00.000000+01:00
 excerpt: "Lab Notes"
 image:
   feature: mountains-6.jpg
-  credit: CC BY 2.0 by Giuseppe Milo
+  credit: Sella group - Dolomites, Italy - Landscape photography by Giuseppe Milo (CC-BY 2.0)
   creditlink: https://www.flickr.com/photos/giuseppemilo/20056638182/
 ---
 

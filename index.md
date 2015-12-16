@@ -4,7 +4,7 @@ excerpt: "Cristian Consonni's personal page - PhD student at dbTrento group of t
 tags: [Cristian Consonni, UniTN, dbTrento, personal page]
 image:
   feature: mountains-1.jpg
-  credit: Dmitry A. Mottl @ Wikimedia Commons (CC-BY-SA 3.0)
+  credit: Marmolada Sunset by Dmitry A. Mottl @ Wikimedia Commons (CC-BY-SA 3.0)
   creditlink: https://commons.wikimedia.org/wiki/File:Marmolada_Sunset.jpg
 ---
 

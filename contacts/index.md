@@ -5,7 +5,7 @@ modified: 2015-06-16
 excerpt: "Courses information and materials"
 image:
   feature: mountains-5.jpg
-  credit: Shane Lin @ Flickr
+  credit: Dolomites - The Geisler / Odle Group by Shane Lin @ Flickr (CC-BY-NC 2.0)
   creditlink: http://bit.ly/1dITCIr
 ---
 

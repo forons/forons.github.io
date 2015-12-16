@@ -7,7 +7,7 @@ tags: [templates, Wikipedia, history]
 comments: true
 image:
   feature: mountains-6.jpg
-  credit: CC BY 2.0 by Giuseppe Milo
+  credit: Sella group - Dolomites, Italy - Landscape photography by Giuseppe Milo (CC-BY 2.0)
   creditlink: https://www.flickr.com/photos/giuseppemilo/20056638182/
 ---
 
