@@ -28,7 +28,7 @@ la "dimensione di un (file di) testo" in modi diversi.
 
 ### 1. Dimensione di un file di testo come numero di bytes
 
-In Java, l'oggetto `File` possiede il metodo `File.lenght()` che ritorna la
+In Java, l'oggetto `File` possiede il metodo `File.length()` che ritorna la
 lunghezza in byte del file da esso rappresentato. Questa è la stessa dimensione
 che compare anche nel filesystem (per esempio controllando con il tasto destro
 le "Proprietà" del file). 
