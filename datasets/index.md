@@ -33,8 +33,8 @@ page edit history in .bz2 format of [2015-10-20](https://dumps.wikimedia.org/itw
     appearing in that given revision. Keys are the name of the templates, values
     are the counts.
 
-
-Extract of the file:
+Extract of the file<a class="collapsible inactive" id='template_count_extract' href="#"></a>.
+<div class="collapsible" id='template_count_extract'>
 {% highlight text %}
 page_id,page_title,rev_id,timestamp,dictionary
 2,Armonium,3,20010914101928,{}
@@ -45,6 +45,7 @@ page_id,page_title,rev_id,timestamp,dictionary
 3,Antropologia,71799348,20150404230808,"{'Nota disambigua': 1, 'Scienze sociali': 1, 'Thesaurus BNCF': 1, 'Zoologia': 1, 'Interprogetto': 1, 'Portale': 1, 'Controllo di autorità': 1, 'Scienze etnoantropologiche': 1}"
 ```
 {% endhighlight %}
+</div>
 
 * ***[redirects_it.tar.7z](./redirects_it.tar.7z)*** (74KB compressed, 257K uncompressed).
   This dataset consists in a list of redirects for each template in Italian Wikipedia.
@@ -54,7 +55,9 @@ page_id,page_title,rev_id,timestamp,dictionary
   3. `rev_id`: (numerical) identifier of the page revision
   4. `timestamp`: revision timestamp.
 
-Extract of the file:
+Extract of the file<a class="collapsible inactive" id='redirects_it' href="#"></a>.
+
+<div class="collapsible" id='redirects_it'>
 {% highlight text %}
 template,redirect,rev_id,timestamp
 1461 Trabzon,Calcio 1461 trabzon,53804499,20121109120449
@@ -67,6 +70,7 @@ ABK,Abcasia,52746688,20120923230717
 AC,Avvisocommento,45522329,20111209160525
 Accountbot,Accountbot,45939459,20111228164505
 {% endhighlight %}
+</div>
 
 ---
 

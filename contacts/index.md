@@ -15,8 +15,8 @@ Italian, English or French.
 
 ### GPG Public Key
 
-This is my GPG Public Key<a class="collapsible inactive" href="#"></a>. You can find it also on the [Ubuntu keyserver](http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA7E9FE6CF073FDA2).
-<div class="collapsible">
+This is my GPG Public Key<a class="collapsible inactive" id='mykey' href="#"></a>. You can find it also on the [Ubuntu keyserver](http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA7E9FE6CF073FDA2).
+<div class="collapsible" id='mykey'>
 {% highlight text %}
 {% include_relative cristian_consonni_PGP_key.md %}
 {% endhighlight %}
