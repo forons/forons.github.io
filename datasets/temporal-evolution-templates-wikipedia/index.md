@@ -75,12 +75,17 @@ Accountbot,Accountbot,45939459,20111228164505
 {% endhighlight %}
 </div>
 
+## License
+
+The code is released under the MIT license and it is available on GitHub. The dataset have been
+extracted from Wikipedia dumps and have the same license (CC-BY-SA 2.5).
+
 ## How to cite
 
-If you reuse this dataset please cite it as:
+If you reuse this dataset, please cite it as:
 
 ***Mattia Lago, Cristian Consonni, Alberto Montresor. Temporal evolution of templates on Wikipedia.***
-
+<a href="http://www.webcitation.org/archive?url=http%3A%2F%2Fdisi.unitn.it%2F~consonni%2Fdatasets%2Ftemporal-evolution-templates-wikipedia%2F&amp;author=Mattia+Lago%2CCristian+Consonni%2CAlberto+Montresor&amp;date=2015-12-18&amp;source=DISI%2CUniversity+of+Trento&amp;subject=Temporal+Evolution+of+Templates+on+Wikipedia"><img src="http://www.webcitation.org/webcite.gif" border=0>Cite using WebCite®</a>
 ---
 
 ## Questions?
