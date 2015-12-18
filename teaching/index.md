@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Datasets
+title: Teaching
 modified: 2015-06-13T17:43:02.362000+01:00
 excerpt: "Courses information and materials"
 image:
