@@ -28,7 +28,7 @@ page edit history in .bz2 format of [2015-10-20](https://dumps.wikimedia.org/itw
   This dataset consists in the count of the appeareance of each template for
   each revision in Italian Wikipedia.
   The archive contains a CSV file with the following fields:
-  1. `page_id`: (numerical) identifier of numerico della pagina
+  1. `page_id`: (numerical) identifier of the page
   2. `page_tile`: page title
   3. `rev_id`: (numerical) identifier of the article revision
   4. `timestamp`: revision timestamp
