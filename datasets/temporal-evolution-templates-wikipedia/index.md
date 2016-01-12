@@ -24,7 +24,7 @@ The code is available under the MIT license [on GitHub](https://github.com/Tihac
 These datasets were produced analyzing the Italian Wikipedia dump with complete
 page edit history in .bz2 format of [2015-10-20](https://dumps.wikimedia.org/itwiki/20151020/).
 
-* ***[template_count_it.tar.7z](./template_count_it.tar.7z)*** (544MB compressed, 9.0GB uncompressed).
+* ***[template_count_it.tar.7z](./template_count_it.tar.7z)*** (544MB compressed, 9.0GB uncompressed, md5sum: `57ff71be1e81ce069bf6407596ff23e7`).
   This dataset consists in the count of the appeareance of each template for
   each revision in Italian Wikipedia.
   The archive contains a CSV file with the following fields:
@@ -50,7 +50,7 @@ page_id,page_title,rev_id,timestamp,dictionary
 {% endhighlight %}
 </div>
 
-* ***[redirects_it.tar.7z](./redirects_it.tar.7z)*** (74KB compressed, 257K uncompressed).
+* ***[redirects_it.tar.7z](./redirects_it.tar.7z)*** (74KB compressed, 257K uncompressed, md5sum: `4ccaca5cc86657f3a36cb6f974d13a61`).
   This dataset consists in a list of redirects for each template in Italian Wikipedia.
   The archive contains a CSV file with the following fields:
   1. `template`: template name
@@ -74,6 +74,8 @@ AC,Avvisocommento,45522329,20111209160525
 Accountbot,Accountbot,45939459,20111228164505
 {% endhighlight %}
 </div>
+
+* Download the [md5sum file](./temporal_evolution_templates_wikipedia.md5sums).
 
 ## License
 
