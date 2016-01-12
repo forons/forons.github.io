@@ -3,7 +3,7 @@ layout: post
 title: Analisi dell'evoluzione temporale dei template in Wikipedia
 excerpt: "Resoconto del lavoro di tesi triennale svolto da Mattia Lago relativo all'analisi dell'evoluzione temporale dei template su Wikipedia in lingua italiana ed inglese"
 modified: 2015-01-12T04:00:00.000000+01:00
-tags: [template, Wikipedia, evoluzione temporale]
+tags: [template, Wikipedia, evoluzione temporale, italiano]
 comments: true
 image:
   feature: mountains-6.jpg
@@ -87,4 +87,5 @@ Per ogni fit è stato calcolato il coefficiente di determinazione per identifica
 meglio il grafico.
 Siamo quindi riusciti ad ottenere una lista di template per ogni categoria.
 
-Il lavoro è disponibile [su GitHub](https://github.com/Tihacker/Wikipedia-Templates-Analysis).
+Il lavoro è disponibile [su GitHub](https://github.com/Tihacker/Wikipedia-Templates-Analysis), i dati sono disponibili
+nella pagina [datasets](http://disi.unitn.it/~consonni/datasets/temporal-evolution-templates-wikipedia/) di questo sito.
