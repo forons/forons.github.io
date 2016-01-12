@@ -10,4 +10,4 @@ image:
   creditlink: https://www.flickr.com/photos/giuseppemilo/20056638182/
 ---
 
-This is the lab notebook,
+This is the lab notebook.
