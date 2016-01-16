@@ -74,7 +74,7 @@ sono andate a formare l'andamento del grafico.
 Il risultato finale è stato quello di produrre i grafici di ogni template di entrambe le Wikipedie, riuscendo
 quindi a identificare mutamenti nei trend di utilizzo, operazioni di bot e l'aggiunta di redirect.
 
-Una parte di dati è stata successivamente utilizzata in una [discussione tra gli utenti di Wikipedia](https://it.wikipedia.org/wiki/Wikipedia:Bar/Discussioni/Statistiche_sull%27utilizzo_dei_template_relativi_alle_fonti.) riguardante l'utilizzo dei template di fonti
+Una parte di dati è stata successivamente utilizzata in una [discussione tra gli utenti di Wikipedia](https://it.wikipedia.org/wiki/Wikipedia:Bar/Discussioni/Statistiche_sull%27utilizzo_dei_template_relativi_alle_fonti) riguardante l'utilizzo dei template di fonti
 all'interno della Wikipedia italiana.
 
 Un secondo obiettivo che ci siamo posti è stato quello di suddividerli in categorie, questo per vedere se
