@@ -4,3 +4,4 @@ datasets/temporal-evolution-templates-wikipedia/*.tar.*
 datasets/temporal-evolution-templates-wikipedia/*.md5*
 datasets/wikipedia-pagecounts-sorted-by-page-year-2014/*.torrent
 datasets/wikipedia-pagecounts-sorted-by-page-year-2014/*.md5*
+datasets/wikipedia-pagecounts-sorted-by-page-year-2014/index.txt
