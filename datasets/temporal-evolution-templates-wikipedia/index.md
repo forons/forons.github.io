@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Datasets: Temporal Evolution of Templates on Wikipedia
-modified: 2015-06-13T17:43:02.362000+01:00
-excerpt: "Courses information and materials"
+modified: 2016-01-01T17:43:02.362000+01:00
+excerpt: "In this work we analyzed the temporal evolution of templates in the Italian and English language Wikipedia counting how the number of occurences of templates changed over time."
 image:
   feature: mountains-7.jpg
   credit: Dolomites, Monte Paterno by Robert J. Heath @ Flickr (CC-BY 2.0)
@@ -13,7 +13,6 @@ image:
 This work has constituted the B.Sc. thesis of Mattia Lago and has been supervised by prof. Alberto Montresor.
 We analyzed the temporal evolution of templates in the Italian and English language
 Wikipedia counting how the number of occurences of templates changed over time.
-
 
 ## Code
 
@@ -46,7 +45,6 @@ page_id,page_title,rev_id,timestamp,dictionary
 3,Antropologia,4,20020111200304,{}
 ...
 3,Antropologia,71799348,20150404230808,"{'Nota disambigua': 1, 'Scienze sociali': 1, 'Thesaurus BNCF': 1, 'Zoologia': 1, 'Interprogetto': 1, 'Portale': 1, 'Controllo di autorità': 1, 'Scienze etnoantropologiche': 1}"
-```
 {% endhighlight %}
 </div>
 
