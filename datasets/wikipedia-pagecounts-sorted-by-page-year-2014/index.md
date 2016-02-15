@@ -76,7 +76,7 @@ We are planning to upload this data also to the Internet Archive.
 * [pagecounts-2014-0000040000-0000049999.torrent](./pagecounts-2014-0000040000-0000049999.torrent)
 * [pagecounts-2014-0000050000-0000059999.torrent](./pagecounts-2014-0000050000-0000059999.torrent)
 * [pagecounts-2014-0000060000-0000069999.torrent](./pagecounts-2014-0000060000-0000069999.torrent)
-
+* [MD5 sums for the files above](./pagecounts-torrents.md5sum.txt)
 
 ## Code
 
