@@ -62,7 +62,7 @@ if [[ $PUSH_REPO ]] ; then
 fi
 
 # Set the environment by loading from the file "environment" in the base directory
-DIR="$( cd "$( dirname $( dirname "$0" ) )" && pwd)"
+DIR="$( cd "$( dirname "$( dirname "$0" )" )" && pwd)"
 source "$DIR/.environment"
 
 echo "Deploying ${DIR}/${DEPLOY_SOURCE_DIR} to ${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
