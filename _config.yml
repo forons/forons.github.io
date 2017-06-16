@@ -55,6 +55,7 @@ owner:
   soundcloud: #username
   weibo: #username
   flickr: #username
+  keybase: cristiancantoro
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb",
