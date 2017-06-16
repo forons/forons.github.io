@@ -1,11 +1,25 @@
-_config.dev.yml
+# Production env variable definitions
 .environment
+
+# jekill configurations and temporary files
+_config.dev.yml
 _site
 .sass-cache
-.DS_Store
+
+# ruby temfiles
+Gemfile.lock
+_asset_bundler_cache
+codekit-config.json
+
+# Sublimetext tempfiles
 *.sublime-project
 *.sublime-workspace
-codekit-config.json
+
+# Node tempfiles
 node_modules
-_asset_bundler_cache
-Gemfile.lock
+
+# Mac tempfiles
+.DS_Store
+
+# misc
+od.pdf

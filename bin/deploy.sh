@@ -73,7 +73,7 @@ fi
 echo ""
 echo "Regenerating static files with jekyll"
 echo ""
-rvm use default
+rvm use 2.3.1
 jekyll build
 
 echo -n "Clean up directory "
