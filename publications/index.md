@@ -9,15 +9,14 @@ image:
   creditlink: https://www.flickr.com/photos/photolupi/3294447879
 ---
 
-These are my publications.
+These are my publications (complete [Curriculum Vitæ](CV_Consonni_gen2017_en.pdf)).
 
-These works have been developed while I was at [Università degli studi di Milano-Bicocca](http://www.unimib.it),
-at [Fondazione Bruno Kessler](http://www.fbk.eu) or during projects done by [Wikimedia Italia](http://www.wikimedia.it).
+These works have been developed while I was at [Università degli studi di Milano-Bicocca](http://www.unimib.it), at [Fondazione Bruno Kessler](http://www.fbk.eu) or during projects done by [Wikimedia Italia](http://www.wikimedia.it).
 
 * Conference paper
 : Riccardo Pasi, Cristian Consonni, Maurizio Napolitano.
 : _“Open Community Data & Official Public Data in flood risk management: a comparison based on InaSAFE”_
-: To appear at FOSS4G-Europe 2015, the 2nd European Conference for for Free and Open Source Software for Geospatial, Como, July 2015
+: FOSS4G-Europe 2015, the 2nd European Conference for for Free and Open Source Software for Geospatial, Como, July 2015
 
 ---
 
