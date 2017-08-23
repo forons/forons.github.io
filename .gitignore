@@ -6,6 +6,9 @@ _config.dev.yml
 _site
 .sass-cache
 
+# PDF files of publications
+publications/files/
+
 # ruby temfiles
 Gemfile.lock
 _asset_bundler_cache
