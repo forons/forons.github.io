@@ -9,7 +9,7 @@ image:
   creditlink: https://www.flickr.com/photos/photolupi/3294447879
 ---
 
-These are my publications (complete [Curriculum Vitæ](CV_Consonni_gen2017_en.pdf)).
+These are my publications (complete Curriculum Vitæ: [en](CV_Consonni_public_en.pdf), [it](CV_Consonni_public_it.pdf)).
 
 These works have been developed while I was at [Università degli studi di Milano-Bicocca](http://www.unimib.it), at [Fondazione Bruno Kessler](http://www.fbk.eu) or during projects done by [Wikimedia Italia](http://www.wikimedia.it).
 
