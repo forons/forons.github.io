@@ -18,8 +18,8 @@ Usage:
     -h, --help                    Show this help message and exits.
     --version                     Print version and copyright information.
 ----
-test.sh 0.2.0
-copyright (c) 2017 Cristian Consonni
+test.sh 0.3.0
+copyright (c) 2018 Cristian Consonni
 MIT License
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
@@ -39,6 +39,7 @@ if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
   # First try to load from a user install
   echo "Loading RVM from home"
   set +eu
+  # shellcheck disable=SC1090
   source "$HOME/.rvm/scripts/rvm"
   set -eu
 
@@ -47,6 +48,7 @@ elif [[ -s "/usr/local/rvm/scripts/rvm" ]] ; then
   # Then try to load from a root install
   echo "Loading RVM from usr/local"
   set +eu
+  # shellcheck disable=SC1091
   source "/usr/local/rvm/scripts/rvm"
   set -eu
 
@@ -62,6 +64,7 @@ set +eu
 DIR="$( cd "$( dirname "$( dirname "$0" )" )" && pwd)"
 set -eu
 
+# shellcheck disable=SC1090
 source "$DIR/.environment"
 
 echo "== Testing webpage =="
@@ -70,7 +73,7 @@ echo ""
 echo "Regenerating static files with jekyll"
 echo ""
 set +eu
-rvm use $ruby_version
+rvm use "$ruby_version"
 set -eu
 echo "Using ruby version $(ruby --version), from $(which ruby)"
 jekyll build --drafts --trace
