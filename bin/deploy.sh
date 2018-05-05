@@ -46,8 +46,8 @@ There is NO WARRANTY, to the extent permitted by law.
 ")
 }
 
-
 DEBUG=false
+VERBOSE=false
 NFLAG=""
 SFLAG=""
 PUSH_REPO=false
@@ -56,7 +56,7 @@ TUNNEL=false
 ENV_FILE=""
 QUIET=false
 
-while getopts ":denpr:stvVh" opt; do
+while getopts ":denpr:stqvVh" opt; do
   case $opt in
     d)
       DEBUG=true
@@ -132,13 +132,24 @@ if $DEBUG; then
  else
   echoverbose() { true; }
  fi
+
+if $QUIET; then
+  mute_cmd() {
+    "$@" >/dev/null
+  }
+
+  echoquiet() { true; }
+else
+  mute_cmd() { "$@"; }
+  echoquiet() { echo "$@"; }
+fi
 ####################
 
 # Load RVM into a shell session *as a function*
 if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
 
   # First try to load from a user install
-  echoverbose "Loading RVM from home"
+  echodebug "Loading RVM from home"
 
   set +u
   # shellcheck disable=SC1090
@@ -148,7 +159,7 @@ if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
 elif [[ -s "/usr/local/rvm/scripts/rvm" ]] ; then
 
   # Then try to load from a root install
-  echoverbose "Loading RVM from usr/local"
+  echodebug "Loading RVM from usr/local"
 
   set +u
   # shellcheck disable=SC1091
@@ -161,12 +172,22 @@ else
   exit -1
 fi
 
-echodebug "NFLAG: $NFLAG"
-echodebug "SFLAG: $SFLAG"
+if [ -z "$NFLAG" ]; then
+  echodebug "NFLAG: (unset)"
+else
+  echodebug "NFLAG: $NFLAG"
+fi
+
+if [ -z "$NFLAG" ]; then
+  echodebug "SFLAG: (unset)"
+else
+  echodebug "SFLAG: $SFLAG"
+fi
+
 echodebug "PUSH_REPO: $PUSH_REPO"
 echodebug "TUNNEL: $TUNNEL"
 
-echo ""
+echoverbose ""
 
 if $PUSH_REPO; then
   echoverbose ""
@@ -186,7 +207,6 @@ fi
 scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 repo_basedir=$(cd "$scriptdir" && git rev-parse --show-toplevel)
 
-
 if [ -z "$ENV_FILE" ]; then
   ENV_FILE="$repo_basedir/.environment"
 fi
@@ -202,7 +222,7 @@ if [ ! -z "$RUBY_VERSION_CLI" ]; then
   RUBY_VERSION="$RUBY_VERSION_CLI"
 fi
 
-echoverbose "Using Ruby version: $RUBY_VERSION"
+echodebug "RUBY_VERSION: $RUBY_VERSION"
 
 echoverbose "Deploying ${repo_basedir}/${DEPLOY_SOURCE_DIR} to "\
      "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
@@ -214,13 +234,21 @@ fi
 echoverbose ""
 echoverbose "Regenerating static files with jekyll"
 echoverbose ""
-rvm use "$RUBY_VERSION"
-jekyll build
+
+echoquiet "--> Build site with jekyll (RUBY_VERSION: $RUBY_VERSION)"
+
+mute_cmd rvm use "$RUBY_VERSION"
+mute_cmd jekyll build
+
+echoquiet ''
 
 echoverbose -n "Clean up directory "
 chmod -R og+Xr "${repo_basedir}/${DEPLOY_SOURCE_DIR}"
 find . -type f -name '*.DS_Store' -ls -delete
-echoverbose "...done"
+
+if $VERBOSE; then
+  echo "...done"
+fi
 
 # Transfer to server with rsync
 echoverbose ""
@@ -229,23 +257,34 @@ echoverbose "Performing transfer to server"
 # Ensure .deployignore exists
 touch "${repo_basedir}/.deployignore"
 
-if ! $TUNNEL; then
-  echoverbose ""
-  rsync $NFLAG -rvzp  $SFLAG --delete --exclude-from="${repo_basedir}/.deployignore" \
-          "${repo_basedir}/${DEPLOY_SOURCE_DIR}" \
-          "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
-else
-  echoverbose "---> tunneling via $TUNNEL_SERVER:$TUNNEL_PORT"
-  echoverbose ""
-
+verbosity_flag='-v'
+if $QUIET; then
   verbosity_flag=''
-  if $DEBUG; then
-    verbosity_flag='-v'
-  fi
+fi
 
-  rsync "$verbosity_flag" $NFLAG -rzp  $SFLAG -e "ssh -p $TUNNEL_PORT" \
+tunnel_option=''
+tunnel_arg=''
+if $TUNNEL; then
+  tunnel_option='-e'
+  tunnel_arg="ssh -p $TUNNEL_PORT"
+  echoverbose "---> tunneling via $TUNNEL_SERVER:$TUNNEL_PORT"
+fi
+
+echoverbose ""
+
+if $DEBUG; then
+  set -x
+fi
+
+echoquiet "--> Transfer files from ${repo_basedir}/${DEPLOY_SOURCE_DIR} to "\
+          "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
+
+rsync -rz --no-perms ${verbosity_flag:-} ${NFLAG:-} ${SFLAG:-} \
+        ${tunnel_option:-} ${tunnel_arg:-} \
         --delete \
         --exclude-from="${repo_basedir}/.deployignore" \
-          "${DIR}/${DEPLOY_SOURCE_DIR}" \
-          "${DEPLOY_ACCOUNT}@${TUNNEL_SERVER}:${DEPLOY_DEST_DIR}"
-fi
+        "${repo_basedir}/${DEPLOY_SOURCE_DIR}" \
+        "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
+echoquiet ''
+
+exit 0
