@@ -282,6 +282,9 @@ echoquiet "--> Transfer files from ${repo_basedir}/${DEPLOY_SOURCE_DIR} to "\
 if $DEBUG; then
   set -x
 fi
+
+# https://github.com/koalaman/shellcheck/wiki/SC2086
+# shellcheck disable=SC2086
 rsync -rz --no-perms ${verbosity_flag:-} ${NFLAG:-} ${SFLAG:-} \
         ${tunnel_option:-} ${tunnel_arg:-} \
         --delete \
