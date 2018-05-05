@@ -237,8 +237,12 @@ echoverbose ""
 
 echoquiet "--> Build site with jekyll (RUBY_VERSION: $RUBY_VERSION)"
 
+if $DEBUG; then
+  set -x
+fi
 mute_cmd rvm use "$RUBY_VERSION"
 mute_cmd jekyll build
+set +x
 
 echoquiet ''
 
@@ -272,19 +276,20 @@ fi
 
 echoverbose ""
 
-if $DEBUG; then
-  set -x
-fi
-
 echoquiet "--> Transfer files from ${repo_basedir}/${DEPLOY_SOURCE_DIR} to "\
           "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
 
+if $DEBUG; then
+  set -x
+fi
 rsync -rz --no-perms ${verbosity_flag:-} ${NFLAG:-} ${SFLAG:-} \
         ${tunnel_option:-} ${tunnel_arg:-} \
         --delete \
         --exclude-from="${repo_basedir}/.deployignore" \
         "${repo_basedir}/${DEPLOY_SOURCE_DIR}" \
         "${DEPLOY_ACCOUNT}@${DEPLOY_SERVER}:${DEPLOY_DEST_DIR}"
+set +x
+
 echoquiet ''
 
 exit 0
