@@ -1,6 +1,6 @@
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.6
-Comment: Hostname: keyserver.ubuntu.com
+Comment: Hostname: pgp.mit.edu
 
 mQINBFf2UdgBEACrxT4tdA1fUeeoMWyHqqGwEgOlS/FFpYkxlbwO4cMMlDMVLig4IQbMl/zD
 RhWsYpYrN+/RyGE15oj9sA6Wmdg+fjwnPbjdANUpuDZlhKRjvmb6YcYgHqBZTNpz4HqhFLXf
