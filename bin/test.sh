@@ -5,16 +5,17 @@
 # Released under the MIT license
 
 ruby_version='default'
+port=''
 
-read -d '' docstring <<EOF
+read -rd '' docstring <<EOF
 Usage:
   test.sh [options]
   test.sh ( -h | --help )
   test.sh ( --version )
 
   Options:
+    -p PORT, --port PORT          Use the specified port.
     --ruby-version RUBY_VERSION	  Set which ruby version to use with RVM
-                                  (default: default)
     -h, --help                    Show this help message and exits.
     --version                     Print version and copyright information.
 ----
@@ -67,6 +68,10 @@ set -eu
 # shellcheck disable=SC1090
 source "$DIR/.environment"
 
+if [ ! -z "$port" ]; then
+  TEST_PORT="$port"
+fi
+
 echo "== Testing webpage =="
 
 echo ""
@@ -75,7 +80,7 @@ echo ""
 set +eu
 rvm use "$ruby_version"
 set -eu
-echo "Using ruby version $(ruby --version), from $(which ruby)"
+echo "Using ruby version $(ruby --version), from $(command -v ruby)"
 jekyll build --drafts --trace
 
 echo ""
