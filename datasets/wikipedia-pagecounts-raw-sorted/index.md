@@ -77,10 +77,6 @@ en Albert_Einstein 20071210-040000 624 624
 {% endhighlight %}
 </div>
 
-This dataset superseedes the previous version with just the data from 2014:
-[doi:10.6084/m9.figshare.2085643.v1](https://dx.doi.org/10.6084/m9.figshare.2085643.v1),
-see also [datasets/wikipedia-pagecounts-sorted-by-page-year-2014](http://disi.unitn.it/~consonni/datasets/wikipedia-pagecounts-sorted-by-page-year-2014/).
-
 ## Download
 
 This dataset can be downloaded in two different ways:
@@ -121,6 +117,11 @@ Please cite this dataset as:
 
 ***Cristian Consonni, Alberto Montresor.***
 ***Wikipedia pagecounts-raw sorted by article.***
+***doi coming soon***
+
+This dataset superseedes the previous version with just the data from 2014:
+[doi:10.6084/m9.figshare.2085643.v1](https://dx.doi.org/10.6084/m9.figshare.2085643.v1),
+see also [datasets/wikipedia-pagecounts-sorted-by-page-year-2014](http://disi.unitn.it/~consonni/datasets/wikipedia-pagecounts-sorted-by-page-year-2014/).
 
 ## FAQs
 
