@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datasets
-modified: 2015-06-13T17:43:02.362000+01:00
+modified: 2018-12-06T02:16:21.453254177+01:00
 excerpt: "Here you can find some datasets you can reuse for your research."
 image:
   feature: mountains-7.jpg
@@ -22,11 +22,16 @@ Wikipedia counting how the number of occurences of templates changed over time.
 
 ## Wikipedia pagecounts sorted by page (year 2014)
 
+**This dataset is supersed by Wikipedia pagecounts-raw sorted by page (years 2007-2016)**
 This dataset contains the page view statistics for all the Wikimedia projects in
 the year 2014, ordered by `(project, page, timestamp)`. It has been generated
 starting from the Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/)
 dataset.
 [Read more and download the data...](./wikipedia-pagecounts-sorted-by-page-year-2014/)
+
+## Wikipedia pagecounts-raw sorted by page (years 2007-2016)
+
+This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, , ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset. [Read more and download the data...](./wikipedia-pagecounts-raw-sorted/)
 
 ---
 

@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Datasets: Wikipedia pagecounts sorted by page (year 2014)
-modified: 2016-02-15T17:43:02.362000+01:00
+modified: 2018-12-06T02:16:21.453254177+01:00
 excerpt: "This dataset contains the page view statistics for all the Wikimedia projects in the year 2014"
 image:
   feature: mountains-7.jpg
   credit: Dolomites, Monte Paterno by Robert J. Heath @ Flickr (CC-BY 2.0)
   creditlink: http://bit.ly/1ZbMlDJ
 ---
+
+**This dataset is superseeded by [Wikipedia pagecounts-raw sorted by page (years 2007-2016)](../wikipedia-pagecounts-raw-sorted/).**
 
 The reference page for this dataset is also available at:
 [doi:10.6084/m9.figshare.2085643.v1](https://dx.doi.org/10.6084/m9.figshare.2085643.v1)
@@ -46,8 +48,8 @@ records.
 An `index` file is included: every line represent the first record of every
 partial file.
 
-Sample (taken from `part-0000011138.gz`, starting from line 411917)<a class="collapsible inactive" id='template_count_extract' href="#"></a>.
-<div class="collapsible" id='template_count_extract'>
+Sample (taken from `part-0000011138.gz`, starting from line 411917)<a class="collapsible inactive" id='new_sample' href="#"></a>.
+<div class="collapsible" id='new_sample'>
 {% highlight text %}
 en Albert_Einstein 20140101-000000 300 25645681
 en Albert_Einstein 20140101-010000 246 21173395
