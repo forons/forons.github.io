@@ -11,9 +11,9 @@ image:
 
 Questa pagina riporta delle informazioni utili relative ai corsi in cui presto servizio come esercitatore o assistente.
 
-## Algoritmi e Stutture Dati (CdL triennale in Informatica, a.a. 2016/2017 e 2017/2018)
+## Algoritmi e Stutture Dati (CdL triennale in Informatica, a.a. 2016/2017, 2017/2018 e 2018/2019)
 
-Le esercitazioni per il corso di [Algoritmi e Strutture Dati (ASD)](http://cricca.disi.unitn.it/montresor/teaching/asd/) sono svolte in compresenza con [Alessio Guerrieri](http://www.science.unitn.it/~guerrieri/main.html).
+Le esercitazioni per il corso di [Algoritmi e Strutture Dati (ASD)](http://cricca.disi.unitn.it/montresor/teaching/asd/) sono state svolte in compresenza con [Alessio Guerrieri](http://www.science.unitn.it/~guerrieri/main.html) negli a.a. 2016/2017 e 2017/2018. Nell'a.a. 2018/2019 sono svolte in compresenza con [Lorenzo Ghiro](https://ans.disi.unitn.it/~ghiro/) nell'a.a. 2018/2019.
 
 Le informazioni relative al laboratorio ed i materiali sono disponibili sul sito principale del laboratorio: [_judge_](http://judge.science.unitn.it/slides/).
 
