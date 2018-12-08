@@ -21,7 +21,7 @@ This dataset can be downloaded in two different ways:
 
 ### HTTP
 
-You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/`](http://cricca.disi.unitn.it/datasets/pagecounts-ez/).
+You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-ez/`](http://cricca.disi.unitn.it/datasets/pagecounts-ez/).
 
 ## Code
 
