@@ -92,7 +92,7 @@ You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-raw-sort
 ## Code
 
 * This dataset has been produced using [Apache Spark](https://spark.apache.org/)
-  on [Microsoft ](http://doc.science.unitn.it/wiki/Il_Cluster_di_Scienze_%28Cisca-Cluster%29)
+  on [Microsoft Azure](https://azure.microsoft.com/)
   with [this script](https://gist.github.com/youtux/13353862ac4227c4baf2) by Alessio Bogon.
 * The Python module [pagecounts-search](https://github.com/youtux/pagecounts-search)
   provides a command-line utility to query this dataset.
