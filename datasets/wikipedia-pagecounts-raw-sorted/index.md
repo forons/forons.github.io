@@ -11,7 +11,7 @@ image:
 
 This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, , ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset.
 
-The original dataset holds the desktop sites' pageview data (separately for every page) for the period from December 2007 to July 2016, with hourly granularity for all Wikipedia editions. More info about the original dataset are available at https://wikitech.wikimedia.org/wiki/. Note that **these are not unique visits**.
+The original dataset holds the desktop sites' pageview data (separately for every page) for the period from December 2007 to July 2016, with hourly granularity for all Wikipedia editions. More info about the original dataset are available on [Wikitech](https://wikitech.wikimedia.org/wiki/Analytics/Archive/Data/Pagecounts-raw). Note that **these are not unique visits**.
 
 The CSV uses *spaces* as delimiter, without any form of escaping because it is not needed. It has 5 columns:
 
@@ -87,7 +87,7 @@ This dataset can be downloaded in two different ways:
 
 ### HTTP
 
-* coming soon
+You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/`](http://cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/).
 
 ## Code
 
@@ -135,19 +135,22 @@ Files are divided in directories, one for each month, like this:
 {% highlight text %}
 .
 ├── 2007-12
-│   ├── index.txt
+│   ├── index.2007-12.txt
+│   ├── md5sums.2007-12.txt
 │   ├── part-00000.gz
 │   ├── part-00001.gz
 │   ├── ...
 │   └── part-00533.gz
 ├── 2008-01
-│   ├── index.txt
+│   ├── index.2008-01.txt
+│   ├── md5sums.2008-01.txt
 │   ├── part-00000.gz
 │   ├── part-00001.gz
 │   ├── ...
 │   └── part-00742.gz
 ├── 2008-02
-│   ├── index.txt
+│   ├── index.2008-02.txt
+│   ├── md5sums.2008-02.txt
 │   ├── part-00000.gz
 │   ├── part-00001.gz
 │   ├── ...
