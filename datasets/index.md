@@ -20,6 +20,7 @@ We analyzed the temporal evolution of templates in the Italian and English langu
 Wikipedia counting how the number of occurences of templates changed over time.
 [Read more and download the data...](./temporal-evolution-templates-wikipedia/)
 
+
 ## Wikipedia pagecounts sorted by page (year 2014)
 
 **This dataset is supersed by Wikipedia pagecounts-raw sorted by page (years 2007-2016)**
@@ -29,17 +30,21 @@ starting from the Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/oth
 dataset.
 [Read more and download the data...](./wikipedia-pagecounts-sorted-by-page-year-2014/)
 
-## Wikipedia pagecounts-raw sorted by page (years 2007-2016)
+
+## Wikipedia `pagecounts-raw` sorted by page (years 2007 – 2016)
 
 This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset. [Read more and download the data...](./wikipedia-pagecounts-raw-sorted/)
 
-## Wikipedia pagecounts-ez (2007-12-09 – 2011-11-15)
+
+## Wikipedia `pagecounts-ez` (2007-12-09 – 2011-11-15)
 
 This dataset is a compressed format of the pageview data of Wikimedia projects. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset. [Read more and download the data...](./wikipedia-pagecounts-ez/)
 
-## Wikipedia pagecounts-all-sites sorted by page (years 2014-2016)
+
+## Wikipedia `pagecounts-all-sites` sorted by page (years 2014 – 2016)
 
 This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-all-sites`](https://dumps.wikimedia.org/other/pagecounts-all-sites) dataset. [Read more and download the data...](./wikipedia-pagecounts-all-sites-sorted/)
+
 
 ---
 
