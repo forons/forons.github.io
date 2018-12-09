@@ -2,14 +2,14 @@
 layout: page
 title: "Datasets: Wikipedia pagecounts-raw sorted by page (years 2007-2016)"
 modified: 2018-12-06T02:16:21.453254177+01:00
-excerpt: "This dataset contains the pagecounts statistics for all the Wikimedia projects sorted by page 2007-2016"
+excerpt: "This dataset contains the pagecounts-raw statistics for all the Wikimedia projects sorted by page 2007-2016"
 image:
   feature: mountains-7.jpg
   credit: Dolomites, Monte Paterno by Robert J. Heath @ Flickr (CC-BY 2.0)
   creditlink: http://bit.ly/1ZbMlDJ
 ---
 
-This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, , ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset.
+This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset.
 
 The original dataset holds the desktop sites' pageview data (separately for every page) for the period from December 2007 to July 2016, with hourly granularity for all Wikipedia editions. More info about the original dataset are available on [Wikitech](https://wikitech.wikimedia.org/wiki/Analytics/Archive/Data/Pagecounts-raw). Note that **these are not unique visits**.
 
