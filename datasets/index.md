@@ -37,6 +37,10 @@ This dataset consists of hourly pagecounts for Wikipedia pages sorted by article
 
 This dataset is a compressed format of the pageview data of Wikimedia projects. It has been created by processing Wikimedia's [`pagecounts-raw`](https://dumps.wikimedia.org/other/pagecounts-raw/) dataset. [Read more and download the data...](./wikipedia-pagecounts-ez/)
 
+## Wikipedia pagecounts-all-sites sorted by page (years 2014-2016)
+
+This dataset consists of hourly pagecounts for Wikipedia pages sorted by article, ordered by `(project, page, timestamp)`. It has been created by processing Wikimedia's [`pagecounts-all-sites`](https://dumps.wikimedia.org/other/pagecounts-all-sites) dataset. [Read more and download the data...](./wikipedia-pagecounts-all-sites-sorted/)
+
 ---
 
 ## Questions?
