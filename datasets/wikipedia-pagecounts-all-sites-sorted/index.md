@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Datasets: Wikipedia `pagecounts-all-sites` sorted by page (years 2014 – 2016)"
+title: "Datasets: Wikipedia pagecounts-all-sites sorted by page (years 2014 – 2016)"
 modified: 2018-12-09T02:10:44.777593225+01:00
 excerpt: "This dataset contains the pagecounts-all statistics for all the Wikimedia projects sorted by page 2014-2016"
 image:
