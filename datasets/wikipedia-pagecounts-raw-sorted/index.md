@@ -89,6 +89,41 @@ This dataset can be downloaded in two different ways:
 
 You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/`](http://cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/).
 
+You can use the scripts at [`pagecounts-download-tools`](https://github.com/CristianCantoro/pagecounts-download-tools) on GitHub.
+
+#### How-to download a month worth of data
+
+<ol>
+  <li>
+    clone the repository:
+    <pre>
+    ╭─ ~
+    ╰─$ git clone https://github.com/CristianCantoro/pagecounts-download-tools
+    </pre>
+  </li>
+  <li>
+    go to the `sizes` directory and execute the download sizes:
+    <pre>
+    ╭─ ~/pagecounts-download-tools/sizes
+    ╰─$ ./download_sizes.sh http://cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/
+    </pre>
+  </li>
+  <li>
+    go to the `downloadlists` directory and execute the download sizes:
+    <pre>
+    ╭─ ~/pagecounts-download-tools/downloadlists
+    ╰─$ ./make_lists.sh ../sizes/2007-12.txt http://cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/
+    </pre>
+  </li>
+  <li>
+    from the repository base directory and dowload files:
+    <pre>
+    ╭─ ~/pagecounts-download-tools
+    ╰─$ ./make_lists.sh ./download.sh -d 2007 1
+    </pre>
+  </li>
+</ol>
+
 ## Code
 
 * This dataset has been produced using [Apache Spark](https://spark.apache.org/)
