@@ -81,16 +81,7 @@ en Albert_Einstein 20071210-040000 624 624
 
 This dataset can be downloaded in two different ways:
 
-### dat (preferred method)
-
-You can download the dataset using [`dat`](), the dataset is available at [`datbase.org/CristianCantoro/pagecounts-raw-sorted`](https://datbase.org/CristianCantoro/pagecounts-raw-sorted).
-
-Once you have installed `dat`, you can download the dataset with:
-```
-dat clone dat://ddc54f744855b022df8edaf458e471757513238282a8675e1ac85f2e14a51b90 ~/dat-pagecounts-raw-sorted
-```
-
-### HTTP
+### HTTP (preferred method)
 
 You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/`](http://cricca.disi.unitn.it/datasets/pagecounts-raw-sorted/).
 
@@ -128,6 +119,15 @@ You can use the scripts at [`pagecounts-download-tools`](https://github.com/Cris
     </pre>
   </li>
 </ol>
+
+### dat (experimental)
+
+You can download the dataset using [`dat`](https://datproject.org/), the dataset is available at [`datbase.org/CristianCantoro/pagecounts-raw-sorted`](https://datbase.org/CristianCantoro/pagecounts-raw-sorted).
+
+Once you have installed `dat`, you can download the dataset with:
+```
+dat clone dat://ddc54f744855b022df8edaf458e471757513238282a8675e1ac85f2e14a51b90 ~/dat-pagecounts-raw-sorted
+```
 
 ## Code
 
