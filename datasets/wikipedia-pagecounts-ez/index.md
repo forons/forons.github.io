@@ -15,13 +15,24 @@ This dataset is a compressed format of the pageview data of Wikimedia projects f
 
 This dataset can be downloaded in two different ways:
 
-### dat (preferred method)
-
-* coming soon
-
-### HTTP
+### HTTP (preferred method)
 
 You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-ez/`](http://cricca.disi.unitn.it/datasets/pagecounts-ez/).
+
+You can download the dataset with the following command:
+<pre>
+lynx -dump -listonly http://cricca.disi.unitn.it/datasets/pagecounts-ez/ | awk '{print $2}' | grep -E '^http://cricca\.disi\.unitn\.it/datasets/pagecounts-ez/' | xargs -L1 -I{} wget -R '\?C=' {}
+</pre>
+
+### dat (experimental)
+
+You can download the dataset using [`dat`](https://datproject.org/), the dataset is available at [`datbase.org/CristianCantoro/wikipedia-pagecounts-ez`](https://datbase.org/CristianCantoro/wikipedia-pagecounts-ez).
+
+Once you have installed `dat`, you can download the dataset with:
+```
+dat clone dat://07d810c54bdc547191b700ac1c12500af9eaa25a3ea054847e9819533acd4891 ~/dat-wikipedia-pagecounts-ez
+```
+
 
 ## Code
 
