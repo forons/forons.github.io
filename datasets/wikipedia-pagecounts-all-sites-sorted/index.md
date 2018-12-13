@@ -75,10 +75,6 @@ en Albert_Einstein 20140928-190000 727 61539311
 
 This dataset can be downloaded in two different ways:
 
-### dat (preferred method)
-
-* coming soon
-
 ### HTTP
 
 You can find the dataset on: [`cricca.disi.unitn.it/datasets/pagecounts-all-sites-sorted/`](http://cricca.disi.unitn.it/datasets/pagecounts-all-sites-sorted/).
@@ -117,6 +113,15 @@ You can use the scripts at [`pagecounts-download-tools`](https://github.com/Cris
     </pre>
   </li>
 </ol>
+
+### dat (experimental)
+
+You can download the dataset using [`dat`](https://datproject.org/), the dataset is available at [`datbase.org/CristianCantoro/pagecounts-all-sites-sorted`](https://datbase.org/CristianCantoro/pagecounts-all-sites-sorted).
+
+Once you have installed `dat`, you can download the dataset with:
+```
+dat clone dat://<dat> ~/dat-pagecounts-all-sites-sorted
+```
 
 ## Code
 
