@@ -116,11 +116,11 @@ You can use the scripts at [`pagecounts-download-tools`](https://github.com/Cris
 
 ### dat (experimental)
 
-You can download the dataset using [`dat`](https://datproject.org/), the dataset is available at [`datbase.org/CristianCantoro/pagecounts-all-sites-sorted`](https://datbase.org/CristianCantoro/pagecounts-all-sites-sorted).
+You can download the dataset using [`dat`](https://datproject.org/), the dataset is available at [`datbase.org/CristianCantoro/wikipedia-pagecounts-all-sites-sorted`](https://datbase.org/CristianCantoro/wikipedia-pagecounts-all-sites-sorted).
 
 Once you have installed `dat`, you can download the dataset with:
 ```
-dat clone dat://<dat> ~/dat-pagecounts-all-sites-sorted
+dat clone dat://d4ac75cda06e991b3181abb7365a1761581c2d54e962f14015f52ed5c8e9f6b2 ~/dat-wikipedia-pagecounts-all-sites-sorted
 ```
 
 ## Code
