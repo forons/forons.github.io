@@ -13,6 +13,8 @@ This dataset consists of hourly pagecounts for Wikipedia pages sorted by article
 
 The original dataset holds the desktop sites' pageview data (separately for every page) for the period from December 2007 to July 2016, with hourly granularity for all Wikipedia editions. More info about the original dataset are available on [Wikitech](https://wikitech.wikimedia.org/wiki/Analytics/Archive/Data/Pagecounts-raw). Note that **these are not unique visits**.
 
+### Descriptions of the data
+
 The CSV uses *spaces* as delimiter, without any form of escaping because it is not needed. It has 5 columns:
 
 * `project`: the project name
@@ -20,6 +22,8 @@ The CSV uses *spaces* as delimiter, without any form of escaping because it is n
 * `timestamp`: the timestamp of the hour (format: `%Y%m%d-%H%M%S`)
 * `count`: the number of times the page has been requested (in that hour)
 * `bytes`: the number of bytes transferred (in that hour)
+
+### Processing
 
 The original dataset has been normalized in the following ways:
 
@@ -39,8 +43,9 @@ This dataset is split in many gzip'd files, each of them containing 1,000,000 re
 
 An `index` folder is included: for every month there is a file describing the the first record of every partial file.
 
-Here's an excerpt of the file [`pagecounts-20071210-000000.gz`](https://dumps.wikimedia.org/other/pagecounts-raw/2007/2007-12/pagecounts-20071210-000000.gz) (lines 379737--379752)<a class="collapsible inactive" id='pagecounts-raw_sample' href="#"></a>:
-<div class="collapsible" id='pagecounts-raw_sample'>
+### Sample
+
+Here's an excerpt of the file [`pagecounts-20071210-000000.gz`](https://dumps.wikimedia.org/other/pagecounts-raw/2007/2007-12/pagecounts-20071210-000000.gz) (lines 379737--379752):
 {% highlight text %}
 en Albert_Einstein 540 540
 en Albert_Einstein#_note-76 1 1
@@ -59,10 +64,8 @@ en Albert_Einstein_Peace_Prize#_note-2 1 1
 en Albert_Einstein_Society 1 1
 en Albert_Einstein_in_popular_culture 5 5
 {% endhighlight %}
-</div>
 
-and in the processed dataset in file `2007-12/part-00082.gz` (lines 352686--352695) you can find:<a class="collapsible inactive" id='pagecounts-raw-sorted_sample' href="#"></a>.
-<div class="collapsible" id='pagecounts-raw-sorted_sample'>
+and in the processed dataset in file `2007-12/part-00082.gz` (lines 352686--352695) you can find:
 {% highlight text %}
 en Albert_Einstein 20071209-190000 471 471
 en Albert_Einstein 20071209-200000 545 545
@@ -75,7 +78,6 @@ en Albert_Einstein 20071210-020000 547 547
 en Albert_Einstein 20071210-030000 557 557
 en Albert_Einstein 20071210-040000 624 624
 {% endhighlight %}
-</div>
 
 ## Download
 
