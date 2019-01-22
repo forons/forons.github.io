@@ -1,0 +1,9 @@
+{% if include.datbase %}
+You can download the dataset using [`dat`](https://datproject.org/), the dataset is available at <a href="{{ include.datbase }}">{{ include.datbase }}</a>.
+{% else %}
+You can download the dataset using [`dat`](https://datproject.org/).
+{% endif %}
+Once you have installed `dat`, you can download the dataset with:
+```
+dat clone {{ include.dat }} {{ include.folder }}
+```

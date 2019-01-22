@@ -1,0 +1,40 @@
+<!-- Description of the `wikilinkgraphs-resolvedredirects` dataset -->
+<li><a href="/datasets/wikilinkgraphs-resolvedredirects/"><strong>WikiLinkGraphs' <code class="highlighter-rouge">ResolvedRedirects</code> dataset</strong></a>:
+  <ul>
+
+    <li class="collapsible">This dataset contains snapshots of Wikipedia articles (<code>namespace 0</code>) taken yearly on March, 1st for the languages <strong>de, en, es, fr, it, nl, pl, ru, sv</strong>. The snapshots were taken on March 1st, for the years between 2001 and 2018 (included). The dataset has been produced by processing Wikimedia's <a href="https://dumps.wikimedia.org/">history dumps</a>. See the complete list of fields <span>[+]</span>.
+      <ul>
+        <!--
+        1:  page_id
+        2:  page_title
+        3:  revision_id
+        4:  revision_parent_id
+        5:  revision_timestamp
+        6:  redirect_id
+        7:  redirect_title
+        8:  redirect_revision_id
+        9:  redirect_revision_parent_id
+        10: redirect_revision_timestamp
+        -->
+        {% include_relative _wikilinkgraphs/descriptions/fields/page_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/page_title.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_parent_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_timestamp.html %}
+
+        <li><code>redirect_id</code>: an integer, the page identifier used by MediaWiki. This identifier is not necessarily progressive, there may be gaps in the enumeration;</li>
+        <li><code>redirect_title</code>: a string, the title of the Wikipedia article;</li>
+        <li><code>redirect_revision_id</code>: an integer, the identifier of a revision of the article, also called a <emph>permanent id</emph>, because it can be used to link to that specific revision of a Wikipedia article;</li>
+        <li><code>redirect_revision_parent_id</code>: an integer, the identifier of the parent revision. In general, each revision as a unique parent; going back in time before 2002, however, we can see that the oldest articles present non-linear edit histories. This is a consequence of the import process from the software previously used to power Wikipedia, MoinMonWiki, to MediaWiki;</li>
+        <li><code>redirect_revision_timestamp</code>: date and time of the edit that generated the revision under consideration;</li>
+      </ul>
+
+    <a href="http://disi.unitn.it/~consonni/datasets/wikilinkgraphs-resolvedredirects/">Read more...</a>
+    </li>
+
+    {% include_relative _wikilinkgraphs/download.html name='wikilinkgraphs-resolvedredirects' %}
+    {% include_relative _wikilinkgraphs/authors.html %}
+    {% include_relative _wikilinkgraphs/goto.html name='wikilinkgraphs-resolvedredirects' %}
+
+  </ul>
+</li>

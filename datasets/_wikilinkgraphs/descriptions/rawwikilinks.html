@@ -1,0 +1,31 @@
+<!-- Description of the `wikilinkgraphs-rawwikilinks` dataset -->
+<li><a href="/datasets/wikilinkgraphs-rawwikilinks/"><strong><code class="highlighter-rouge">RawWikilinks</code> dataset</strong></a>:
+  <ul>
+
+    <li class="collapsible">This dataset contains wikilinks, i.e. links between Wikipedia articles, extracted by processing each revision of each Wikipedia article (<code>namespace 0</code>) from Wikimedia's <a href="https://dumps.wikimedia.org/">history dumps</a> for the languages <strong>de, en, es, fr, it, nl, pl, ru, sv</strong>. See the complete list of fields <span>[+]</span>.
+      <ul>
+        {% include_relative _wikilinkgraphs/descriptions/fields/page_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/page_title.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_parent_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_timestamp.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/user_type.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/user_username.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/user_id.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/revision_minor.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.link.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.anchor.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_name.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_level.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_number.html %}
+        {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.is_active.html %}
+      </ul>
+      <a href="http://disi.unitn.it/~consonni/datasets/wikilinkgraphs-rawwikilinks/">Read more...</a>
+    </li>
+
+    {% include_relative _wikilinkgraphs/download.html name='wikilinkgraphs-rawwikilinks' %}
+    {% include_relative _wikilinkgraphs/authors.html %}
+    {% include_relative _wikilinkgraphs/goto.html name='wikilinkgraphs-rawwikilinks' %}
+
+  </ul>
+</li>
