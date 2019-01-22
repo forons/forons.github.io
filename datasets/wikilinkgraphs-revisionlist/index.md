@@ -8,7 +8,8 @@ image:
   creditlink: http://bit.ly/1ZbMlDJ
 ---
 
-	{% include_relative _wikilinkgraphs/descriptions/revisionlist.html %}
+  {% include_relative _wikilinkgraphs/descriptions/revisionlist.html %}
+  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='revisionlist' %}
 
 ## Description
 

@@ -1,0 +1,25 @@
+<style>
+.round-box {
+  border-radius: 25px;
+  background: #e3f2fd;
+  padding: 20px;
+}
+</style>
+
+{% capture wlg_datasets %}
+rawwikilinks|rawwikilinks-snapshots|revisionlist|snapshots|redirects|resolvedredirects|wikilinkgraphs
+{% endcapture %}
+{% assign datasets = wlg_datasets | split: "|" %}
+
+<div class="round-box">
+  <strong>WikiLinkGraphs.</strong> This dataset is part of the WikiLinkGraphs family, a collection of datasets extracted from Wikipedia history dumps. See the other datasets:
+  <ul>
+    {% for item in datasets %}
+      {% if item == include.dataset %}
+        <li><span style="font-weight: bold;">{{ item }} (this one)</span></li>
+      {% else %}
+        <li>{{ item }} (coming soon)</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
