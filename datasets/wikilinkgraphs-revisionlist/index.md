@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Datasets: WikiLinkGraphs' RevisionLists"
+title: "Dataset: WikiLinkGraphs' RevisionLists"
 excerpt: "This dataset contains lists of all revisions for each Wikipedia article from Wikimedia's history dumps for the languages de, en, es, fr, it, nl, pl, ru, sv."
 image:
   feature: mountains-7.jpg
