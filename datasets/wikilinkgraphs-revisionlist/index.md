@@ -158,7 +158,6 @@ Files are divided in directories, one for each language, like this:
 
 
   {% include_relative _wikilinkgraphs/faqs/whoproduced.html %}
-  {% include_relative _wikilinkgraphs/faqs/publications.html %}
 
 ---
 
