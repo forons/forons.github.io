@@ -10,7 +10,7 @@ image:
 
 	{% include_relative _wikilinkgraphs/descriptions/revisionlist.html %}
 
-### Descriptions of the data
+## Description
 
 <ul>
 	{% include_relative _wikilinkgraphs/descriptions/fields/page_id.html %}
@@ -68,6 +68,7 @@ done
 ### dat (experimental)
 
   {% include_relative _wikilinkgraphs/dat.html 
+     datbase='https://datbase.org/CristianCantoro/wikilinkgraphs-revisionlist'
      dat='dat://40b516f8a05d8c207d427a290a76916605ba31a60d7e0aa73d090c1decd9fcdc'
      folder='~/wikilinkgraphs-revisionlist'
   %}
