@@ -13,6 +13,10 @@ Here you can find some datasets you can reuse for your research.
 
 ## WikiLinkGraphs
 
+### WikiLinkGraphs' RawWikilinks
+
+This dataset contains wikilinks, i.e. links between Wikipedia articles, extracted by processing each revision of each Wikipedia article (`namespace 0`) from Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-rawwikilinks/)
+
 ### WikiLinkGraphs' RevisionList
 
 This dataset contains lists of all revisions for each Wikipedia article (`namespace 0`) from Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-revisionlist/)
