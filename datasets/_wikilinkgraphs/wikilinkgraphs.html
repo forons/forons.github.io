@@ -6,10 +6,11 @@
 }
 </style>
 
-{% capture wlg_datasets %}
-rawwikilinks|rawwikilinks-snapshots|revisionlist|snapshots|redirects|resolvedredirects|wikilinkgraphs
-{% endcapture %}
-{% assign datasets = wlg_datasets | split: "|" %}
+{% capture wlg_datasets %}rawwikilinks|rawwikilinks-snapshots|revisionlist|snapshots|redirects|resolvedredirects|wikilinkgraphs{% endcapture %}
+{% assign datasets = wlg_datasets | strip | split: "|" %}
+
+{% capture wlg_datasets_done %}rawwikilinks|revisionlist{% endcapture %}
+{% assign datasets_done = wlg_datasets_done | strip | split: "|" %}
 
 <div class="round-box">
   <strong>WikiLinkGraphs.</strong> This dataset is part of the WikiLinkGraphs family, a collection of datasets extracted from Wikipedia history dumps. See the other datasets:
@@ -18,7 +19,11 @@ rawwikilinks|rawwikilinks-snapshots|revisionlist|snapshots|redirects|resolvedred
       {% if item == include.dataset %}
         <li><span style="font-weight: bold;">{{ item }} (this one)</span></li>
       {% else %}
-        <li>{{ item }} (coming soon)</li>
+        {% unless datasets_done contains item %}
+          <li>{{ item }} (coming soon)</li>
+        {% else %}
+          <li><a href="/datasets/wikilinkgraphs-{{ item }}/">{{ item }}</a></li>
+        {% endunless %}
       {% endif %}
     {% endfor %}
   </ul>
