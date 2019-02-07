@@ -98,6 +98,7 @@ done
 
 ### What is the total size of the dataset, the number of files and the largest file in the dataset?
 
+For each of the 9 languages you will find 18 gzipped files, one for each snapshot from 2001 to 2018 (included).
 The total dataset size is 79TB, divided among the languages like this:
 11G     dewiki/
 29G     enwiki/
@@ -109,10 +110,7 @@ The total dataset size is 79TB, divided among the languages like this:
 6.8G    ruwiki/
 3.9G    svwiki/
 
-
-
-The dataset contains 978 files. The average file size is 1.3GB and the largest file is ~13GB
-(the file from svwiki, which is just one chunk).
+The dataset contains 162 files. The average file size is 0.5GB and the largest file is ~3.8GB (enwiki's snapshot from 2018-03-01).
 
 ### How are files organized?
 
