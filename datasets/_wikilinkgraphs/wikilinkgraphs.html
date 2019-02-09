@@ -9,7 +9,7 @@
 {% capture wlg_datasets %}rawwikilinks|rawwikilinks-snapshots|revisionlist|snapshots|redirects|resolvedredirects|wikilinkgraphs{% endcapture %}
 {% assign datasets = wlg_datasets | strip | split: "|" %}
 
-{% capture wlg_datasets_done %}rawwikilinks|rawwikilinks-snapshots|revisionlist{% endcapture %}
+{% capture wlg_datasets_done %}rawwikilinks|rawwikilinks-snapshots|revisionlist|snapshots{% endcapture %}
 {% assign datasets_done = wlg_datasets_done | strip | split: "|" %}
 
 <div class="round-box">

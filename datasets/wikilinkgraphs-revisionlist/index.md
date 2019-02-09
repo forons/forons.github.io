@@ -49,22 +49,7 @@ This dataset can be downloaded in two different ways:
 
 ### HTTP (preferred method)
 
-You can find the dataset on: [`cricca.disi.unitn.it/datasets/wikilinkgraphs-revisionlist/`](http://cricca.disi.unitn.it/datasets/wikilinkgraphs-revisionlist/).
-
-You can download the dataset with the following command:
-<pre>
-adate=20180301; \
-langs=( 'dewiki' 'enwiki'  'eswiki'  'frwiki'  'itwiki'  'nlwiki'  'plwiki'  'ruwiki' 'svwiki' ); \
-for lang in "${langs[@]}"; do
-  lynx \
-    -dump \
-    -listonly \
-      "http://cricca.disi.unitn.it/datasets/wikilinkgraphs-revisionlist/${lang}/${adate}/" | \
-  awk '{print $2}' | \
-  grep -E '^http://cricca\.disi\.unitn\.it/datasets/wikilinkgraphs-revisionlist/' | \
-  xargs -L1 -I{} wget -R '\?C=' {}
-done
-</pre>
+  {% include_relative _wikilinkgraphs/http.html dataset='revisionlist' %}
 
 ### dat (experimental)
 

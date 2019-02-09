@@ -54,7 +54,7 @@ This dataset can be downloaded in two different ways:
 
 ### HTTP (preferred method)
 
-  {% include_relative _wikilinkgraphs/http.html dataset='rawwikilinks' %}
+  {% include_relative _wikilinkgraphs/http.html dataset='resolved-redirects' %}
 
 ### dat (experimental)
 

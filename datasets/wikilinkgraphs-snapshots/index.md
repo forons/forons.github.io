@@ -10,7 +10,7 @@ image:
 
 
   {% include_relative _wikilinkgraphs/descriptions/rawwikilinks-snapshots.html %}
-  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='rawwikilinks-snapshots' %}
+  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='snapshots' %}
 
 ## Description
 
@@ -20,16 +20,6 @@ image:
   {% include_relative _wikilinkgraphs/descriptions/fields/revision_id.html %}
   {% include_relative _wikilinkgraphs/descriptions/fields/revision_parent_id.html %}
   {% include_relative _wikilinkgraphs/descriptions/fields/revision_timestamp.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/user_type.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/user_username.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/user_id.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/revision_minor.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.link.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.anchor.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_name.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_level.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_number.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.is_active.html %}
 </ul>
 
 ### Sample
@@ -37,17 +27,17 @@ image:
 Extract of the file `enwiki.link_snapshot.2018-03-01.csv.gz` in `enwiki/20180301/`:
 
 {% highlight text %}
-page_id,page_title,revision_id,revision_parent_id,revision_timestamp,user_type,user_username,user_id,revision_minor,wikilink.link,wikilink.tosection,wikilink.anchor,wikilink.section_name,wikilink.section_level,wikilink.section_number,wikinlink.is_active
-10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28Z,registered,Godsy,23257138,0,Computer accessibility,Computer accessibility,---~--- incipit ---~---,0,0,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,6 February 1934 crisis,February 1934 riots, Conflicts with European fascist regimes ,3,8,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,abstentionism,abstentionism, First International and the Paris Commune ,3,4,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolf Brand,Adolf Brand, Individualist anarchism ,3,18,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolf Hitler,Hitler, Spanish Revolution ,3,9,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolphe Thiers,Versailles, Propaganda of the deed and illegalism ,3,6,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,affinity group,affinity group, Contemporary anarchism ,3,11,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,affinity group,affinity group, Post-classical anarchist schools of thought ,3,19,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Age of Enlightenment,Enlightenment, Origins ,3,3,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,agriculture,agrarian, Spanish Revolution ,3,9,1
+page_id,page_title,revision_id,revision_parent_id,revision_timestamp
+10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28+00:00
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35+00:00
+13,AfghanistanHistory,783865149,74466652,2017-06-05T04:18:18+00:00
+14,AfghanistanGeography,783865160,407008307,2017-06-05T04:18:23+00:00
+15,AfghanistanPeople,783865293,616420354,2017-06-05T04:19:42+00:00
+18,AfghanistanCommunications,783865299,74466499,2017-06-05T04:19:45+00:00
+19,AfghanistanTransportations,783821589,409266982,2017-06-04T21:42:11+00:00
+20,AfghanistanMilitary,783821738,558328133,2017-06-04T21:43:11+00:00
+21,AfghanistanTransnationalIssues,783821743,46448859,2017-06-04T21:43:14+00:00
+23,AssistiveTechnology,783865310,74466798,2017-06-05T04:19:50+00:00
 {% endhighlight %}
 
 ## Download
@@ -56,7 +46,7 @@ This dataset can be downloaded in two different ways:
 
 ### HTTP (preferred method)
 
-  {% include_relative _wikilinkgraphs/http.html dataset='rawwikilinks-snapshots' %}
+  {% include_relative _wikilinkgraphs/http.html dataset='snapshots' %}
 
 ### dat (experimental)
 

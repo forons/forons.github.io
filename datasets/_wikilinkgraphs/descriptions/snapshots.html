@@ -1,22 +1,2 @@
-<!-- Description of the `/datasets/wikilinkgraphs-snapshots/` dataset -->
-<li><a href="/datasets/wikilinkgraphs-snapshots/"><strong>WikiLinkGraphs' <code class="highlighter-rouge">Snapshots</code> dataset</strong></a>:
-  <ul>
 
-    <li class="collapsible">This dataset contains snapshots of Wikipedia articles (<code>namespace 0</code>) taken yearly on March, 1st for the languages <strong>de, en, es, fr, it, nl, pl, ru, sv</strong>. The snapshots were taken on March 1st, for the years between 2001 and 2018 (included). The dataset has been produced by processing Wikimedia's <a href="https://dumps.wikimedia.org/">history dumps</a>. See the complete list of fields <span>[+]</span>.
-      <ul>
-        {% include_relative _wikilinkgraphs/descriptions/fields/page_id.html %}
-        {% include_relative _wikilinkgraphs/descriptions/fields/page_title.html %}
-        {% include_relative _wikilinkgraphs/descriptions/fields/revision_id.html %}
-        {% include_relative _wikilinkgraphs/descriptions/fields/revision_parent_id.html %}
-        {% include_relative _wikilinkgraphs/descriptions/fields/revision_timestamp.html %}
-        {% include_relative _wikilinkgraphs/descriptions/fields/user_type.html %}
-      </ul>
-      <a href="http://disi.unitn.it/~consonni/datasets/wikilinkgraphs-snapshots/">Read more...</a>
-    </li>
-
-    {% include_relative _wikilinkgraphs/download.html name='wikilinkgraphs-rawwikilinks-snapshots' %}
-    {% include_relative _wikilinkgraphs/authors.html %}
-    {% include_relative _wikilinkgraphs/goto.html name='wikilinkgraphs-rawwikilinks-snapshots' %}
-
-  </ul>
-</li>
+This dataset contains Wikipedia snapshots, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included). It has been produced by processing Wikimedia's <a href="https://dumps.wikimedia.org/">history dumps</a> for the languages <strong>de, en, es, fr, it, nl, pl, ru, sv</strong>.
