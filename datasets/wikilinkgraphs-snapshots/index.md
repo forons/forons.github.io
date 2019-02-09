@@ -75,15 +75,16 @@ This dataset can be downloaded in two different ways:
 
 For each of the 9 languages you will find 18 gzipped files, one for each snapshot from 2001 to 2018 (included).
 The total dataset size is 79TB, divided among the languages like this:
-11G     dewiki/
-29G     enwiki/
-5.9G    eswiki/
-9.2G    frwiki/
-5.7G    itwiki/
-4.1G    nlwiki/
-4.8G    plwiki/
-6.8G    ruwiki/
-3.9G    svwiki/
+
+* 11G     dewiki/
+* 29G     enwiki/
+* 5.9G    eswiki/
+* 9.2G    frwiki/
+* 5.7G    itwiki/
+* 4.1G    nlwiki/
+* 4.8G    plwiki/
+* 6.8G    ruwiki/
+* 3.9G    svwiki/
 
 The dataset contains 162 files. The average file size is 0.5GB and the largest file is ~3.8GB (enwiki's snapshot from 2018-03-01).
 
