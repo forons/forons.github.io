@@ -8,8 +8,8 @@ image:
   creditlink: http://bit.ly/1ZbMlDJ
 ---
 
-  {% include_relative _wikilinkgraphs/descriptions/rawwikilinks.html %}
-  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='rawwikilinks' %}
+  {% include_relative _wikilinkgraphs/descriptions/redirects.html %}
+  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='redirects' %}
 
 ## Description
 
@@ -76,13 +76,53 @@ This dataset can be downloaded in two different ways:
 
 ### What is the total size of the dataset, the number of files and the largest file in the dataset?
 
+The dataset contains 9 files. For each of the 9 languages you will find a gzipped files.
+The total dataset size is 681M, divided among the languages like this:
+
+* 62M     dewiki/
+* 353M    enwiki/
+* 37M     eswiki/
+* 47M     frwiki/
+* 27M     itwiki/
+* 21M     nlwiki/
+* 17M     plwiki/
+* 68M     ruwiki/
+* 53M     svwiki/
+
+The average file size is 79.3GB and the largest file is ~353MGB (enwiki's redirects).
 
 ### How are files organized?
 
 Files are divided in directories, one for each language, like this:
 {% highlight text %}
-
-
+.
+├── dewiki
+│   └── 20180301
+│       └── dewiki.redirects.20180301.csv.gz
+├── enwiki
+│   └── 20180301
+│       └── enwiki.redirects.20180301.csv.gz
+├── eswiki
+│   └── 20180301
+│       └── eswiki.redirects.20180301.csv.gz
+├── frwiki
+│   └── 20180301
+│       └── frwiki.redirects.20180301.csv.gz
+├── itwiki
+│   └── 20180301
+│       └── itwiki.redirects.20180301.csv.gz
+├── nlwiki
+│   └── 20180301
+│       └── nlwiki.redirects.20180301.csv.gz
+├── plwiki
+│   └── 20180301
+│       └── plwiki.redirects.20180301.csv.gz
+├── ruwiki
+│   └── 20180301
+│       └── ruwiki.redirects.20180301.csv.gz
+└── svwiki
+    └── 20180301
+        └── svwiki.redirects.20180301.csv.gz
 {% endhighlight %}
 
 
