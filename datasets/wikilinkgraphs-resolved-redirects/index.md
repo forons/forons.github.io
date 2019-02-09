@@ -1,51 +1,60 @@
 ---
 layout: page
-title: "Dataset: WikiLinkGraphs' RawWikilinks"
-excerpt: "This dataset contains wikilinks, i.e. links between Wikipedia articles, extracted by processing each revision of each Wikipedia article (namespace 0) from Wikimedia's history dumps for the languages de, en, es, fr, it, nl, pl, ru, sv."
+title: "Dataset: WikiLinkGraphs' ResolvedRedirects"
+excerpt: "This dataset contains Wikipedia snapshots with resolved redirects, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included), with redirects indicating which page was pointed at the moment. It has been produced by processing Wikimedia's history dumps for the languages de, en, es, fr, it, nl, pl, ru, sv."
 image:
   feature: mountains-7.jpg
   credit: Dolomites, Monte Paterno by Robert J. Heath @ Flickr (CC-BY 2.0)
   creditlink: http://bit.ly/1ZbMlDJ
 ---
 
-  {% include_relative _wikilinkgraphs/descriptions/rawwikilinks.html %}
-  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='rawwikilinks' %}
+  {% include_relative _wikilinkgraphs/descriptions/resolved-redirects.html %}
+  {% include_relative _wikilinkgraphs/wikilinkgraphs.html dataset='resolved-redirects' %}
 
 ## Description
 
+<!--
+1:  page_id
+2:  page_title
+3:  revision_id
+4:  revision_parent_id
+5:  revision_timestamp
+6:  redirect_id
+7:  redirect_title
+8:  redirect_revision_id
+9:  redirect_revision_parent_id
+10: redirect_revision_timestamp
+-->
 <ul>
-	{% include_relative _wikilinkgraphs/descriptions/fields/page_id.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/page_title.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/revision_id.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/revision_parent_id.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/revision_timestamp.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/user_type.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/user_username.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/user_id.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/revision_minor.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.link.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.tosection.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.anchor.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_name.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_level.html %}
-  {% include_relative _wikilinkgraphs/descriptions/fields/wikilink.section_number.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/page_id.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/page_title.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/revision_id.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/revision_parent_id.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/revision_timestamp.html %}
+
+  {% include_relative _wikilinkgraphs/descriptions/fields/redirect_id.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/redirect_title.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/redirect_revision_id.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/redirect_revision_parent_id.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/redirect_revision_timestamp.html %}
 </ul>
 
 ### Sample
 
-Extract of the file `enwiki-20180301-pages-meta-history1.xml-p10p2115.7z.revisionlist.csv.gz` in `enwiki/20180301/`:
+Extract of the file `enwiki.snapshot.resolve_redirect.2018-03-01.csv.gz` in `enwiki/20180301/`:
 
 {% highlight text %}
-page_id,page_title,revision_id,revision_parent_id,revision_timestamp,user_type,user_username,user_id,revision_minor,wikilink.link,wikilink.tosection,wikilink.anchor,wikilink.section_name,wikilink.section_level,wikilink.section_number
-10,AccessibleComputing,862220,233192,2002-02-25T15:43:11Z,registered,Conversion script,0,1,Accessible Computing,,Accessible Computing,---~--- incipit ---~---,0,0
-10,AccessibleComputing,15898945,862220,2003-04-25T22:18:38Z,registered,Ams80,7543,1,Accessible_computing,,Accessible_computing,---~--- incipit ---~---,0,0
-10,AccessibleComputing,56681914,15898945,2006-06-03T16:55:41Z,registered,Nzd,516514,1,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0
-10,AccessibleComputing,74466685,56681914,2006-09-08T04:16:04Z,registered,Rory096,750223,0,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0
-10,AccessibleComputing,133452289,133180268,2007-05-25T17:12:12Z,registered,Gurch,241822,1,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0
-10,AccessibleComputing,381202555,381200179,2010-08-26T22:38:36Z,registered,OlEnglish,7181920,1,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0
-10,AccessibleComputing,631144794,381202555,2014-10-26T04:50:23Z,registered,Paine Ellsworth,9092818,0,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0
-10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28Z,registered,Godsy,23257138,0,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0
-12,Anarchism,18201,332419362,2002-02-25T15:00:22Z,registered,Conversion script,0,1,libertarian socialism,,Libertarian socialists,---~--- incipit ---~---,0,0
+page_id,page_title,revision_id,revision_parent_id,revision_timestamp,redirect_id,redirect_title,redirect_revision_id,redirect_revision_parent_id,redirect_revision_timestamp
+10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28+00:00,10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28+00:00
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35+00:00,12,Anarchism,828135433,827702904,2018-02-28T19:35:35+00:00
+13,AfghanistanHistory,783865149,74466652,2017-06-05T04:18:18+00:00,13,AfghanistanHistory,783865149,74466652,2017-06-05T04:18:18+00:00
+14,AfghanistanGeography,783865160,407008307,2017-06-05T04:18:23+00:00,14,AfghanistanGeography,783865160,407008307,2017-06-05T04:18:23+00:00
+15,AfghanistanPeople,783865293,616420354,2017-06-05T04:19:42+00:00,15,AfghanistanPeople,783865293,616420354,2017-06-05T04:19:42+00:00
+18,AfghanistanCommunications,783865299,74466499,2017-06-05T04:19:45+00:00,18,AfghanistanCommunications,783865299,74466499,2017-06-05T04:19:45+00:00
+19,AfghanistanTransportations,783821589,409266982,2017-06-04T21:42:11+00:00,19,AfghanistanTransportations,783821589,409266982,2017-06-04T21:42:11+00:00
+20,AfghanistanMilitary,783821738,558328133,2017-06-04T21:43:11+00:00,20,AfghanistanMilitary,783821738,558328133,2017-06-04T21:43:11+00:00
+21,AfghanistanTransnationalIssues,783821743,46448859,2017-06-04T21:43:14+00:00,21,AfghanistanTransnationalIssues,783821743,46448859,2017-06-04T21:43:14+00:00
+23,AssistiveTechnology,783865310,74466798,2017-06-05T04:19:50+00:00,23,AssistiveTechnology,783865310,74466798,2017-06-05T04:19:50+00:00
 {% endhighlight %}
 
 ## Download
@@ -81,19 +90,20 @@ This dataset can be downloaded in two different ways:
 
 ### What is the total size of the dataset, the number of files and the largest file in the dataset?
 
-The total dataset size is 1.2TB, divided among the languages like this:
-* 110G    dewiki/
-* 638G    enwiki/
-* 94G     eswiki/
-* 111G    frwiki/
-* 77G     itwiki/
-* 23G     nlwiki/
-* 31G     plwiki/
-* 73G     ruwiki/
-* 13G     svwiki/
+The total dataset size is 8.4GB, divided among the languages like this:
 
-The dataset contains 978 files. The average file size is 1.3GB and the largest file is ~13GB
-(the file from svwiki, which is just one chunk).
+* 924M    dewiki/
+* 3,5G    enwiki/
+* 662M    eswiki/
+* 844M    frwiki/
+* 483M    itwiki/
+* 512M    nlwiki/
+* 416M    plwiki/
+* 659M    ruwiki/
+* 528M    svwiki/
+
+The dataset contains 162 files. The average file size is 56.1MB and the largest file is 451MB
+(enwiki's latest snapshot on 2018-03-01).
 
 ### How are files organized?
 
@@ -102,56 +112,58 @@ Files are divided in directories, one for each language, like this:
 .
 ├── dewiki
 │   └── 20180301
-│       ├── dewiki-20180301-pages-meta-history1.xml-p1p3405.7z.features.xml.gz
-│       ├── dewiki-20180301-pages-meta-history1.xml-p3406p6349.7z.features.xml.gz
+│       ├── dewiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── dewiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── dewiki-20180301-pages-meta-history4.xml-p9990172p10238969.7z.features.xml.gz
+│       └── dewiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── enwiki
 │   └── 20180301
-│       ├── enwiki-20180301-pages-meta-history1.xml-p10p2115.7z.features.xml.gz
-│       ├── enwiki-20180301-pages-meta-history1.xml-p2116p4236.7z.features.xml.gz
+│       ├── enwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── enwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── enwiki-20180301-pages-meta-history27.xml-p56237363p56724160.7z.features.xml.gz
+│       └── enwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── eswiki
 │   └── 20180301
-│       ├── eswiki-20180301-pages-meta-history1.xml-p5p3721.7z.features.xml.gz
-│       ├── eswiki-20180301-pages-meta-history1.xml-p3722p7536.7z.features.xml.gz
+│       ├── eswiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── eswiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── eswiki-20180301-pages-meta-history4.xml-p8089658p8379527.7z.features.xml.gz
+│       └── eswiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── frwiki
 │   └── 20180301
-│       ├── frwiki-20180301-pages-meta-history1.xml-p3p3554.7z.features.xml.gz
-│       ├── frwiki-20180301-pages-meta-history1.xml-p3555p9507.7z.features.xml.gz
+│       ├── frwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── frwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── frwiki-20180301-pages-meta-history4.xml-p9743778p10092297.7z.features.xml.gz
+│       └── frwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── itwiki
 │   └── 20180301
-│       ├── itwiki-20180301-pages-meta-history1.xml-p2p12411.bz2.features.xml.gz
-│       ├── itwiki-20180301-pages-meta-history1.xml-p12412p29362.bz2.features.xml.gz
+│       ├── itwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── itwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── itwiki-20180301-pages-meta-history4.xml-p6535051p6847991.bz2.features.xml.gz
+│       └── itwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── nlwiki
 │   └── 20180301
-│       ├── nlwiki-20180301-pages-meta-history1.xml-p1p6842.7z.features.xml.gz
-│       ├── nlwiki-20180301-pages-meta-history1.xml-p6843p18427.7z.features.xml.gz
+│       ├── nlwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── nlwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── nlwiki-20180301-pages-meta-history4.xml-p4953496p4955587.7z.features.xml.gz
+│       └── nlwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── plwiki
 │   └── 20180301
-│       ├── plwiki-20180301-pages-meta-history1.xml-p2p7835.7z.features.xml.gz
-│       ├── plwiki-20180301-pages-meta-history1.xml-p7836p27363.7z.features.xml.gz
+│       ├── plwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── plwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── plwiki-20180301-pages-meta-history4.xml-p3751406p4229714.7z.features.xml.gz
+│       └── plwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 ├── ruwiki
 │   └── 20180301
-│       ├── ruwiki-20180301-pages-meta-history1.xml-p4p5387.7z.features.xml.gz
-│       ├── ruwiki-20180301-pages-meta-history1.xml-p5388p15885.7z.features.xml.gz
+│       ├── ruwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+│       ├── ruwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
 │       ├── ...
-│       └── ruwiki-20180301-pages-meta-history4.xml-p6895239p7350163.7z.features.xml.gz
+│       └── ruwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 └── svwiki
     └── 20180301
-        └── svwiki-20180301-pages-meta-history.xml.7z.features.xml.gz
-
+        ├── svwiki.snapshot.resolve_redirect.2001-03-01.csv.gz
+        ├── svwiki.snapshot.resolve_redirect.2002-03-01.csv.gz
+        ├── ...
+        └── svwiki.snapshot.resolve_redirect.2018-03-01.csv.gz
 {% endhighlight %}
 
 
