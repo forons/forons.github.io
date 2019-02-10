@@ -35,11 +35,11 @@ This dataset contains redirects in Wikipedia, i.e. alias names for Wikipedia art
 
 ### WikiLinkGraphs' ResolvedRedirects
 
-This dataset contains Wikipedia snapshots with resolved redirects, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included), with redirects indicating which page was pointed at the moment. It has been produced by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-redirects/)
+This dataset contains Wikipedia snapshots with resolved redirects, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included), with redirects indicating which page was pointed at the moment. It has been produced by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-resolved-redirects/)
 
 ### WikiLinkGraphs
 
-This dataset contains Wikipedia snapshots with resolved redirects, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included), with redirects indicating which page was pointed at the moment. It has been produced by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-redirects/)
+WikiLinkGraphs is a dataset of the network of internal Wikipedia links for 9 language editions: ***de, en, es, fr, it, nl, pl, ru, sv***. This dataset spans over 17 years, from the creation of Wikipedia in 2001 to March 2018. The dataset has been produced by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/). [Read more and download the data...](./wikilinkgraphs/)
 
 
 ## Wikipedia pagecounts
