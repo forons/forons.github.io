@@ -31,9 +31,13 @@ This dataset contains wikilink snapshots, i.e. links between Wikipedia articles,
 
 ### WikiLinkGraphs' Redirects
 
-This dataset contains lists of all revisions for each Wikipedia article (`namespace 0`) from Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-redirects/)
+This dataset contains redirects in Wikipedia, i.e. alias names for Wikipedia articles, extracted by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-redirects/)
 
 ### WikiLinkGraphs' ResolvedRedirects
+
+This dataset contains Wikipedia snapshots with resolved redirects, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included), with redirects indicating which page was pointed at the moment. It has been produced by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-redirects/)
+
+### WikiLinkGraphs
 
 This dataset contains Wikipedia snapshots with resolved redirects, i.e. list of pages (with a particular revision) of Wikipedia on March, 1st for each year from 2001 to 2018 (included), with redirects indicating which page was pointed at the moment. It has been produced by processing Wikimedia's [history dumps](https://dumps.wikimedia.org/) for the languages ***de, en, es, fr, it, nl, pl, ru, sv***. [Read more and download the data...](./wikilinkgraphs-redirects/)
 
