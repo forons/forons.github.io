@@ -27,7 +27,7 @@ image:
 
 ### Sample
 
-Extract of the file `enwiki-20180301-pages-meta-history1.xml-p10p2115.7z.revisionlist.csv.gz` in `enwiki/20180301/`:
+Extract of the file `enwiki.redirects.20180301.csv.gz` in `enwiki/20180301/`:
 
 {% highlight text %}
 page_id,page_title,revision_id,revision_parent_id,revision_timestamp,revision_minor,redirect.target,redirect.tosection
