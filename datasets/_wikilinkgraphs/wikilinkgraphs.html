@@ -22,7 +22,7 @@
         {% unless datasets_done contains item %}
           <li>{{ item }} (coming soon)</li>
         {% else %}
-          <li><a href="/datasets/wikilinkgraphs-{{ item }}/">{{ item }}</a></li>
+          <li><a href="{{ site.baseurl }}/datasets/wikilinkgraphs-{{ item }}/">{{ item }}</a></li>
         {% endunless %}
       {% endif %}
     {% endfor %}
