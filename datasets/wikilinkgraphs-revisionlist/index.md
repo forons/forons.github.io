@@ -22,7 +22,9 @@ image:
 	{% include_relative _wikilinkgraphs/descriptions/fields/user_type.html %}
 	{% include_relative _wikilinkgraphs/descriptions/fields/user_username.html %}
 	{% include_relative _wikilinkgraphs/descriptions/fields/user_id.html %}
-	{% include_relative _wikilinkgraphs/descriptions/fields/revision_minor.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/revision_minor.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/bytes.html %}
+  {% include_relative _wikilinkgraphs/descriptions/fields/change_bytes.html %}
 </ul>
 
 ### Sample
@@ -30,17 +32,17 @@ image:
 Extract of the file `enwiki-20180301-pages-meta-history1.xml-p10p2115.7z.revisionlist.csv.gz` in `enwiki/20180301/`:
 
 {% highlight text %}
-page_id,page_title,revision_id,revision_parent_id,revision_timestamp,user_type,user_username,user_id,revision_minor
-10,AccessibleComputing,233192,,2001-01-21T02:12:21Z,registered,RoseParks,99,0
-10,AccessibleComputing,862220,233192,2002-02-25T15:43:11Z,registered,Conversion script,0,1
-10,AccessibleComputing,15898945,862220,2003-04-25T22:18:38Z,registered,Ams80,7543,1
-10,AccessibleComputing,56681914,15898945,2006-06-03T16:55:41Z,registered,Nzd,516514,1
-10,AccessibleComputing,74466685,56681914,2006-09-08T04:16:04Z,registered,Rory096,750223,0
-10,AccessibleComputing,133180268,74466685,2007-05-24T14:41:58Z,registered,Ngaiklin,4477979,1
-10,AccessibleComputing,133452289,133180268,2007-05-25T17:12:12Z,registered,Gurch,241822,1
-10,AccessibleComputing,381200179,133452289,2010-08-26T22:23:51Z,ip,76.28.186.133,-1,0
-10,AccessibleComputing,381202555,381200179,2010-08-26T22:38:36Z,registered,OlEnglish,7181920,1
-10,AccessibleComputing,631144794,381202555,2014-10-26T04:50:23Z,registered,Paine Ellsworth,9092818,0
+page_id,page_title,revision_id,revision_parent_id,revision_timestamp,user_type,user_username,user_id,revision_minor,bytes,change_bytes
+10,AccessibleComputing,233192,,2001-01-21T02:12:21Z,registered,RoseParks,99,0,119,119
+10,AccessibleComputing,862220,233192,2002-02-25T15:43:11Z,registered,Conversion script,0,1,35,-84
+10,AccessibleComputing,15898945,862220,2003-04-25T22:18:38Z,registered,Ams80,7543,1,34,-1
+10,AccessibleComputing,56681914,15898945,2006-06-03T16:55:41Z,registered,Nzd,516514,1,36,2
+10,AccessibleComputing,74466685,56681914,2006-09-08T04:16:04Z,registered,Rory096,750223,0,57,21
+10,AccessibleComputing,133180268,74466685,2007-05-24T14:41:58Z,registered,Ngaiklin,4477979,1,53,-4
+10,AccessibleComputing,133452289,133180268,2007-05-25T17:12:12Z,registered,Gurch,241822,1,57,4
+10,AccessibleComputing,381200179,133452289,2010-08-26T22:23:51Z,ip,76.28.186.133,-1,0,1875,1818
+10,AccessibleComputing,381202555,381200179,2010-08-26T22:38:36Z,registered,OlEnglish,7181920,1,57,-1818
+10,AccessibleComputing,631144794,381202555,2014-10-26T04:50:23Z,registered,Paine Ellsworth,9092818,0,69,12
 {% endhighlight %}
 
 ## Download
