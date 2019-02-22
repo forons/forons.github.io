@@ -38,16 +38,16 @@ Extract of the file `enwiki.link_snapshot.2018-03-01.csv.gz` in `enwiki/20180301
 
 {% highlight text %}
 page_id,page_title,revision_id,revision_parent_id,revision_timestamp,user_type,user_username,user_id,revision_minor,wikilink.link,wikilink.tosection,wikilink.anchor,wikilink.section_name,wikilink.section_level,wikilink.section_number,wikinlink.is_active
-10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28Z,registered,Godsy,23257138,0,Computer accessibility,Computer accessibility,---~--- incipit ---~---,0,0,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,6 February 1934 crisis,February 1934 riots, Conflicts with European fascist regimes ,3,8,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,abstentionism,abstentionism, First International and the Paris Commune ,3,4,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolf Brand,Adolf Brand, Individualist anarchism ,3,18,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolf Hitler,Hitler, Spanish Revolution ,3,9,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolphe Thiers,Versailles, Propaganda of the deed and illegalism ,3,6,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,affinity group,affinity group, Contemporary anarchism ,3,11,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,affinity group,affinity group, Post-classical anarchist schools of thought ,3,19,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Age of Enlightenment,Enlightenment, Origins ,3,3,1
-12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,agriculture,agrarian, Spanish Revolution ,3,9,1
+10,AccessibleComputing,767284433,631144794,2017-02-25T00:30:28Z,registered,Godsy,23257138,0,Computer accessibility,,Computer accessibility,---~--- incipit ---~---,0,0,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,6 February 1934 crisis,,February 1934 riots, Conflicts with European fascist regimes ,3,8,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,abstentionism,,abstentionism, First International and the Paris Commune ,3,4,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolf Brand,,Adolf Brand, Individualist anarchism ,3,18,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolf Hitler,,Hitler, Spanish Revolution ,3,9,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Adolphe Thiers,,Versailles, Propaganda of the deed and illegalism ,3,6,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,affinity group,,affinity group, Contemporary anarchism ,3,11,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,affinity group,,affinity group, Post-classical anarchist schools of thought ,3,19,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,Age of Enlightenment,,Enlightenment, Origins ,3,3,1
+12,Anarchism,828135433,827702904,2018-02-28T19:35:35Z,registered,Hydrargyrum,291919,0,agriculture,,agrarian, Spanish Revolution ,3,9,1
 {% endhighlight %}
 
 ## Download
