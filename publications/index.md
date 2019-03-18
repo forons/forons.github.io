@@ -60,8 +60,8 @@ These works have been developed while I was at [Università degli studi di Milan
 : Riccardo Pasi, Cristian Consonni, Maurizio Napolitano.
 : [_“Open Community Data & Official Public Data in flood risk management: a comparison based on InaSAFE”_](files/FOSS4G-eu15_Pasi_Consonni_Napolitano.pdf)
 : FOSS4G-Europe 2015, the 2nd European Conference for for Free and Open Source Software for Geospatial, Como, July 2015
-: abstract <a class="collapsible inactive" id='abstract_non-gaussianities_topological_charge' href="#"></a>
-<div class="collapsible" id='abstract_non-gaussianities_topological_charge'>
+: abstract <a class="collapsible inactive" id='abstract_osm_inasafe' href="#"></a>
+<div class="collapsible" id='abstract_osm_inasafe'>
 Flood and - in general - natural hazards cannot be prevented; however, measures can be taken to mitigate their impacts and prevent them from
 becoming disasters. Disaster management has been defined as «(the) continuous process that aims at avoiding or reducing the impact of natural hazards» (Poser, Dransch, 2010). Poser and Dransch (2010) have also outlined the importance of using up-to-date and accurate information in all phases of disaster management, as the need of integrating information from many different sources including in-situ sensors, aerial and satellite images, administrative, statistics and socioeconomic census data. New Internet technologies have facilitated fast and easy data collection from the public, giving rise to the idea of using Volunteered Geographic Information (VGI) in disaster risk management.
 
