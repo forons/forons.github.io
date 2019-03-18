@@ -11,6 +11,22 @@ image:
 
 These are my publications (complete Curriculum Vitæ: [en](CV_Consonni_public_en.pdf), [it](CV_Consonni_public_it.pdf)). See also [my Google Scholar profile](https://scholar.google.it/citations?user=M7Cs7JYAAAAJ&hl=en) and [ResearchGate profile](https://www.researchgate.net/profile/Cristian_Consonni).
 
+* Conference paper
+: Cristian Consonni , David Laniado, and Alberto Montresor.
+: [_"WikiLinkGraphs: A complete, longitudinal and multi-language dataset of the Wikipedia link networks"_](files/WikiLinkGraphs.pdf)
+: _To appear at [ICWSM 2019](https://icwsm.org/2019/)_. arXiv preprint [arXiv:1902.04298](https://arxiv.org/pdf/1902.04298.pdf) (2019).
+
+---
+
+* Conference paper
+: Cristian Consonni, Paolo Sottovia, Alberto Montresor, and Yannis Velegrakis.
+: [_"Discoverying order dependencies through order compatibility"_](files/OD_paper_EDBT_2019.pdf).
+: _To appear aat [International Conference on Extending Database Technology 2019](http://edbticdt2019.inesc-id.pt/)_.
+
+---
+
+
+
 These works have been developed while I was at [Università degli studi di Milano-Bicocca](http://www.unimib.it), at [Fondazione Bruno Kessler](http://www.fbk.eu) or during projects done by [Wikimedia Italia](http://www.wikimedia.it).
 
 * Conference paper
