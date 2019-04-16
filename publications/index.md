@@ -78,6 +78,27 @@ The paper discusses the opportunities and challenges of using VGI for disaster m
 <div class="collapsible" id='abstract_non-gaussianities_topological_charge'>
 We study the topological charge distribution of the SU(3) Yang-Mills theory with high precision in order to be able to detect deviations from Gaussianity. The computation is carried out on the lattice with high statistics Monte&nbsp;Carlo simulations by implementing a naive discretization of the topological charge evolved with the Yang-Mills gradient flow. This definition is far less demanding than the one suggested from Neuberger’s fermions and, as shown in this paper, in the continuum limit its cumulants coincide with those of the universal definition appearing in the chiral Ward identities. Thanks to the range of lattice volumes and spacings considered, we can extrapolate the results for the second and fourth cumulant of the topological charge distribution to the continuum limit with confidence by keeping finite volume effects negligible with respect to the statistical errors. Our best results for the topological susceptibility is $t_{0}^{2}\chi=6.67(7) \times 10^{-4}$, where $t_0$ is a standard reference scale, while for the ratio of the fourth cumulant over the second, we obtain $R=0.233(45)$. The latter is compatible with the expectations from the large $N_c$ expansion, while it rules out the $\theta$ behavior of the vacuum energy predicted by the dilute instanton model. Its large distance from 1 implies that, in the ensemble of gauge configurations that dominate the path integral, the fluctuations of the topological charge are of quantum <i>nonperturbative</i> nature.
 </div>
+
+---
+
+* Conference paper
+: Anna Antonini, Dante Bartoli, Sara Chiesa, Cristian Consonni, Rossella Di Marco, Sara Franco.
+: _“Archeowiki: enhancing archaeological heritage in Lombardy (Italy) with open-source strategies”_
+: First EAGLE International Conference, Paris, October 2014.
+: [conference proceedings @ eagle-network.eu](http://www.eagle-network.eu/wp-content/uploads/2015/01/Paris-Conference-Proceedings.pdf); [conference proceedings (self-hosted)](files/EAGLE-Paris-Conference-Proceedings.pdf) [presentation on SlideShare](https://www.slideshare.net/CristianCantoro/archeowiki-when-opensource-strategies-attract-visitors-presence-in-museums-eagle-2014-conference)
+: abstract <a class="collapsible inactive" id='abstract_archeowiki' href="#"></a>
+<div class="collapsible" id='abstract_archeowiki'>
+Open Source initiatives in cultural environment are emerging tools among educational and cultural institutions. This practice, indeed, is largely used by museums, libraries, archives, in order to promote knowledge also implemented by a sharing process. Involving people in this participative process means also increase the number of real visitors in museums. That idea stimulated the project “Archeowiki”.
+</div>
+
+---
+
+* Presentation
+: Cristian Consonni.
+: _“Nuts4nuts: geospatial information from Wikipedia”_
+: [ECCS'14 Satellite Workshop on Computational Social Science](https://web.archive.org/web/20140929162342/http://cssworkshop.oii.ox.ac.uk/), Lucca, 24-25 September, 2014
+: [slides (self-hosted)](files/eccs14_css_Paper28_Consonni.pdf) [slides on SlideShare](https://www.slideshare.net/CristianCantoro/nuts4nuts-geospatial-information-from-wikipedia-ecss-2014)
+
 ---
 
 * Conference paper
@@ -92,17 +113,31 @@ We present a precise computation of the topological charge distribution in the $
 
 ---
 
-* Conference paper
-: Anna Antonini, Dante Bartoli, Sara Chiesa, Cristian Consonni, Rossella Di Marco, Sara Franco.
-: _“Archeowiki: enhancing archaeological heritage in Lombardy (Italy) with open-source strategies”_
-: First EAGLE International Conference, Paris, October 2014.
-: [conference proceedings @ eagle-network.eu](http://www.eagle-network.eu/wp-content/uploads/2015/01/Paris-Conference-Proceedings.pdf); [conference proceedings (self-hosted)](files/EAGLE-Paris-Conference-Proceedings.pdf)
-: abstract <a class="collapsible inactive" id='abstract_archeowiki' href="#"></a>
-<div class="collapsible" id='abstract_archeowiki'>
-Open Source initiatives in cultural environment are emerging tools among educational and cultural institutions. This practice, indeed, is largely used by museums, libraries, archives, in order to promote knowledge also implemented by a sharing process. Involving people in this participative process means also increase the number of real visitors in museums. That idea stimulated the project “Archeowiki”.
+* Poster
+: Cristian Consonni.
+: _“Nuts4Nuts: extraction of geospatial information from Wikipedia and linking to OpenStreetMap”_
+: Collective Intelligence 2014 @ Massachusetts Institute of Technology, Cambridge (MA) -- June 10-12, 2014.
+: [poster (self-hosted)](files/ci2014_Paper64_Consonni.pdf) [code on GitHub](https://github.com/SpazioDati/Nuts4Nuts)
+: abstract <a class="collapsible inactive" id='abstract_n4n_poster' href="#"></a>
+<div class="collapsible" id='abstract_n4n_poster'>
+Volunteered geographical information (VGI) are one facet of phenomenon of crowdsourcing in which people are collecting and sharing large amounts data in open and collaborative projects. Although these projects have different purposes and scopes there is some overlap between them so it can be asked if these data, which are collected from different communities with different processes, are coherent.
+In this context we have developed a tool, called Nuts4Nuts, which can identify the municipality in which a Wikipedia article is located extracting relevant informations from the templates or perfoming an analysis of the article's incipit. The code is available with a permissive MIT license. At the moment, the system is limited to locations in Italy and is based on Italian Wikipedia.
 </div>
 
 ---
+
+* Presentation
+: Cristian Consonni.
+: _“Data coherence between OSM and Wikipedia”_
+: State of the Map 2013 @ Birmingham (UK) -- September 2013
+: [slides (self-hosted)](files/Consonni_SotM13.pdf) [slide on Slideshare](https://www.slideshare.net/CristianCantoro/data-coherence-between-openstreetmap-and-wikipedia-presentation-state-of-the-map-2013-birmingham) [video on Vimeo](https://vimeo.com/79221338)
+: abstract <a class="collapsible inactive" id='abstract_sotm13' href="#"></a>
+<div class="collapsible" id='abstract_sotm13'>
+Volunteered geographical information (VGI) is one facet of phenomenon of crowdsourcing in which people collect and share large amounts data in open and collaborative projects. Although these projects have different purposes and scopes there is some overlap between them so it can be asked if this data, which is collected from different communities with different processes, is coherent. I will discuss a set of possible analyses between OSM and Wikipedia data, how they can be performed and a path for further research. I will also present some preliminary results of the application of these metrics regarding Italian Wikipedia and OSM in Italy for a given category of objects (churches and historical buildings).
+</div>
+
+---
+
 
 ### Bachelor and Master Thesis
 
