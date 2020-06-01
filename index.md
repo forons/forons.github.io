@@ -42,12 +42,7 @@ times.
 
 I am a [Wikipedian][wikipedia] since 2007, and a member of [Wikimedia
 Italia][wmi] the local chapter of the [Wikimedia Foundation][wmf], where I
-have served on the board from 2010 to 2017.
-
-I am an advocate for _[free software][fsf]_ and _open knowledge_.
-
-I am a [Wikipedian][wikipedia] since 2007, and a member of [Wikimedia
-Italia][wmi] the local chapter of the [Wikimedia Foundation][wmf].
+have served as member of the board from 2010 to 2017.
 
 I am an advocate for _[free software][fsf]_ and _open knowledge_.
 
