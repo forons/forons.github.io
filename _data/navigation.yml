@@ -1,6 +1,9 @@
 # Site navigation links
-- title: Contacts
-  url: /contacts/
+- title: Notes
+  url: /notes/
+
+- title: Bio
+  url: /bio/
 
 - title: Publications
   url: /publications/
@@ -8,11 +11,8 @@
 - title: Teaching
   url: /teaching/
 
-- title: Notes
-  url: /notes/
-
-- title: Lab Notebook
-  url: /labnotes/
-
 - title: Datasets
   url: /datasets/
+
+- title: Contacts
+  url: /contacts/

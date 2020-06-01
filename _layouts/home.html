@@ -31,11 +31,31 @@
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
+    <div>
+      <a class="twitter-timeline" data-height="512" data-dnt="true" href="https://twitter.com/CristianCantoro?ref_src=twsrc%5Etfw">Tweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </div>
   </div>
+
+
   <article class="page">
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
       {{ content }}
+      {% if site.categories['home'] != nil and site.categories['home'] != empty %}
+        <h2>News</h2>
+        <div style="background: #f2f3f4">
+        {% for post in site.categories['home'] %}  
+          <article>
+            {% if post.link %}
+              <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
+            {% else %}
+              <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+              <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+        </div>
+      {% endif %}
     </div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
       <section id="disqus_thread"></section><!-- /#disqus_thread -->

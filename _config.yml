@@ -2,8 +2,9 @@
 
 title: Cristian Consonni's page
 locale: en_US
-url: http://disi.unitn.it/~consonni
-baseurl: /~consonni
+theme: minimal-mistakes-jekyll
+url: https://consonni.dev
+baseurl:
 
 # Jekyll configuration
 
@@ -13,7 +14,7 @@ highlighter: pygments.rb
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
 
 kramdown:
@@ -21,27 +22,26 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 
 # Site owner
 owner:
   name: Cristian Consonni
-  avatar: bio-photo.jpg
-  bio: "Computer science PhD student, free software activist, physicist and storyteller"
-  email: cristian.consonni(at)unitn(dot)it
-  disqus-shortname: disiunitnitconsonni
+  avatar: bio-photo-eurecat.jpg
+  bio: "Ph.D. in Computer Science, free software activist, physicist and storyteller"
+  email: cristian.consonni(at)eurecat(dot)org
+  disqus-shortname: consonni-dev
   twitter: CristianCantoro
   facebook: cristian.consonni
   google:
-    plus: CristianConsonni
     analytics: 
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
   github: CristianCantoro
-  stackoverflow: #http://stackoverflow.com/users/123456/username
+  stackoverflow: https://stackoverflow.com/users/2377454/cristiancantoro
   linkedin: cristianconsonni
   xing: #username
   instagram: #username
@@ -59,6 +59,15 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb",
-		  "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec",
-		  "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock",
-		  "LICENSE", "README.md", "bin", ".deployignore", ".environment"]
+          "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec",
+          "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock",
+          "LICENSE", "README.md", "bin", ".deployignore", ".environment",
+          "datasets/_wikilinkgraphs",
+          "datasets/wikilinkgraphs/_wikilinkgraphs",
+          "datasets/wikilinkgraphs-rawwikilinks/_wikilinkgraphs",
+          "datasets/wikilinkgraphs-redirects/_wikilinkgraphs",
+          "datasets/wikilinkgraphs-snapshots/_wikilinkgraphs",
+          "datasets/wikilinkgraphs/_wikilinkgraphs",
+          "datasets/wikilinkgraphs-resolved-redirects/_wikilinkgraphs",
+          "datasets/wikilinkgraphs-rawwikilinks-snapshots/_wikilinkgraphs",
+          "datasets/wikilinkgraphs-revisionlist/_wikilinkgraphs"]

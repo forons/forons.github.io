@@ -240,8 +240,10 @@ echoquiet "--> Build site with jekyll (RUBY_VERSION: $RUBY_VERSION)"
 if $DEBUG; then
   set -x
 fi
+set +eu
 mute_cmd rvm use "$RUBY_VERSION"
 mute_cmd jekyll build
+set -eu
 set +x
 
 echoquiet ''

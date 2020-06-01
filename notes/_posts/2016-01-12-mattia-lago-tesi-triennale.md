@@ -2,7 +2,7 @@
 layout: post
 title: Analisi dell'evoluzione temporale dei template in Wikipedia
 excerpt: "Resoconto del lavoro di tesi triennale svolto da Mattia Lago relativo all'analisi dell'evoluzione temporale dei template su Wikipedia in lingua italiana ed inglese"
-modified: 2015-01-12T04:00:00.000000+01:00
+modified: 2015-01-12T04:00+01:00
 tags: [template, Wikipedia, evoluzione temporale, italiano]
 comments: true
 image:
@@ -11,7 +11,7 @@ image:
   creditlink: https://www.flickr.com/photos/giuseppemilo/20056638182/
 ---
 
-Ospitio come primo post un resoconto fatto da uno studente a cui ho fatto da correlatore per la tesi di laurea
+Ospito come primo post un resoconto fatto da uno studente a cui ho fatto da correlatore per la tesi di laurea
 triennale, Mattia Lago.
 
 ---
