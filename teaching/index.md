@@ -16,8 +16,8 @@ servizio come esercitatore o assistente.
 
 Ho tenuto le esercitazioni per il corso di [Algoritmi e Strutture Dati (ASD)][asd]
 in compresenza con [Alessio Guerrieri][alessio] (a.a. 2016/2017, 2017/2018),
-[Lorenzo Ghiro][lorenzo] (a.a. 2018/2019) e Marta Fornasier e
-[Antonio Bucchiarone][antonio] (a.a. 2019/2020).
+[Lorenzo Ghiro][lorenzo] (a.a. 2018/2019), Marta Fornasier,
+[Martin Brugnara][martin] e [Antonio Bucchiarone][antonio] (a.a. 2019/2020).
 
 Le informazioni relative al laboratorio ed i materiali sono disponibili sul
 sito principale del laboratorio: [_judge_][asdlab].
@@ -113,6 +113,7 @@ target="_blank">contattarmi via email</a>.
 [asd]: http://cricca.disi.unitn.it/montresor/teaching/asd/
 [alessio]: http://www.science.unitn.it/~guerrieri/main.html
 [lorenzo]: https://ans.disi.unitn.it/~ghiro/
+[martin]: https://martinbrugnara.it/
 [antonio]: https://das.fbk.eu/people/profile/bucchiarone
 [asdlab]: http://judge.science.unitn.it/slides/
 [zunino]: http://disi.unitn.it/~zunino/teaching/informatica/progetto2015/progetto2015.html
