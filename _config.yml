@@ -28,12 +28,13 @@ kramdown:
 # Site owner
 owner:
   name: Daniele Foroni
-  avatar: bio-photo-eurecat.jpg
-  bio: "Ph.D. in Computer Science, professional social person, data and sport lover"
+  # avatar: bio-photo.jpg
+  avatar: image.png
+  bio: "Ph.D. in Computer Science, professional social person, guitarist, data and sport lover"
   email: daniele.foroni(at)huawei(dot)com
-  disqus-shortname: foroni-dev
+  disqus-shortname: #foroni-dev
   twitter: forons
-  facebook: daniele.foroni
+  facebook: 
   google:
     analytics: 
     verify: 
@@ -61,13 +62,4 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb",
           "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec",
           "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock",
-          "LICENSE", "README.md", "bin", ".deployignore", ".environment",
-          "datasets/_wikilinkgraphs",
-          "datasets/wikilinkgraphs/_wikilinkgraphs",
-          "datasets/wikilinkgraphs-rawwikilinks/_wikilinkgraphs",
-          "datasets/wikilinkgraphs-redirects/_wikilinkgraphs",
-          "datasets/wikilinkgraphs-snapshots/_wikilinkgraphs",
-          "datasets/wikilinkgraphs/_wikilinkgraphs",
-          "datasets/wikilinkgraphs-resolved-redirects/_wikilinkgraphs",
-          "datasets/wikilinkgraphs-rawwikilinks-snapshots/_wikilinkgraphs",
-          "datasets/wikilinkgraphs-revisionlist/_wikilinkgraphs"]
+          "LICENSE", "README.md", "bin", ".deployignore", ".environment"]

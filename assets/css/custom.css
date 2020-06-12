@@ -1,7 +1,20 @@
+body {
+  color:#000;
+  font-family:'Open Sans',sans-serif;
+  text-rendering:optimizeLegibility;
+  font-size:14px;
+  background:#FFF;
+  margin:0;
+  padding:0;
+  background:#fefefe;
+  font-weight:400;
+  line-height:1.5;
+}
+
 a.collapsible.active:before {
-    content: "▲";
-    vertical-align: super;
-    font-size: 80%;
+  content: "▲";
+  vertical-align: super;
+  font-size: 80%;
 }​
 
 a.collapsible {
@@ -25,3 +38,35 @@ div.collapsible.active {
   display: block;
   background: #F2F2F2;
 }
+
+section .grid-x.articleSummary{
+  display: flex;
+  flex-flow:row wrap;
+  padding:10px 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+section .grid-x.articleSummary:last-child{
+  margin-bottom: 0;
+}
+
+section .articleSummary p, section .articleSummary{
+  line-height: 1.4em;
+}
+
+section .articleSummary p{
+  color: rgba(27, 5, 33, 0.75);
+  margin-bottom: 0;
+}
+
+section .articleSummary p.links{
+  display: block;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.fa-cv::before {
+  content: '\f1c1';
+}
+

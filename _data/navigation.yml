@@ -1,18 +1,15 @@
 # Site navigation links
-- title: Notes
-  url: /notes/
 
-- title: Bio
-  url: /bio/
+- title: Home
+  url: /
+#- title: Notes
+#  url: /notes/
 
-- title: Publications
+- title: Bio & Publications
   url: /publications/
 
-- title: Teaching
-  url: /teaching/
-
-- title: Datasets
-  url: /datasets/
+  # - title: Teaching
+  # url: /teaching/
 
 - title: Contacts
   url: /contacts/
