@@ -23,4 +23,3 @@ Riesstraße, 25
 Germany
 {% endhighlight %}
 
----
