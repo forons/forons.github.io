@@ -8,3 +8,4 @@ gem 'octopress', '~> 3.0.0.rc.12'
 group :jekyll_plugins do
   gem 'octopress-debugger'
 end
+gem "webrick", "~> 1.7"

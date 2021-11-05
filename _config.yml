@@ -2,7 +2,7 @@
 
 title: Daniele Foroni's page
 locale: en_US
-#theme: minimal-mistakes-jekyll
+  #theme: minimal-mistakes-jekyll
 theme: jekyll-theme-minimal
 url: https://forons.github.io
 baseurl:

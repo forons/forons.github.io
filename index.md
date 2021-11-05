@@ -37,7 +37,6 @@ any vehicle can follow is massive.
 
 
 [huawei]: https://www.huawei.org/
-[bigdata]: https://eurecat.org/en/field-of-knowledge/big-data-data-science/
 [unitn]: http://www.unitn.it/
 [dbtrento]: https://db.disi.unitn.eu/
 [yannis]: https://velgias.github.io/

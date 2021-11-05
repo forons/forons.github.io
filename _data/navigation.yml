@@ -5,11 +5,11 @@
 #- title: Notes
 #  url: /notes/
 
-- title: Bio & Publications
-  url: /publications/
+- title: Bio
+  url: /biography/
 
-  # - title: Teaching
-  # url: /teaching/
+- title: Publications
+  url: /publications/
 
 - title: Contacts
   url: /contacts/
