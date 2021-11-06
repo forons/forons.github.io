@@ -16,19 +16,25 @@ During that time, I was also a member of the [DbTrento research group][dbtrento]
 My Ph.D. thesis is titled:
 ["Putting Data Quality in Context - How to generate more accurate analyses"][phd] 
 and tackles the problem of data quality issues in the data and how to handle them.
+The Ph.D. program has been funded by [SkilLab - TIM][tim].
 
-My Ph.D. program has been funded by [SkilLab - TIM][tim].
+
+
+I am a data and sport lover, and mixing these two passion is something that has always
+pushed me. So, in the spare time, I often like to perform some [analyses](https://www.github.com/forons/football-analysis).
+
+I love music and I am also a guitarist.
 
 ---
 
 ## Research Interests
 
-My research interests include data mining, expecially data quality and profiling, 
+My research interests include data mining, in particular data quality and profiling, 
 as well as machine learning applications and knowledge discovery.
 I am focused on data analysis and data exploration, graph mining techniques, and 
 knowledge extraction from structured and unstructured sources.
 
-Currently, my work is centred on traffic simulations. Traffic mining is an extremely 
+Currently, my work is centered on traffic simulations. Traffic mining is an extremely 
 broad area that has not yet been fully investigated. The challenges goes from adapting 
 a single traffic light with the information of the vehicles that are passing on it to 
 combine their data to adapt their behavior accordingly. Such processes are not 
