@@ -18,7 +18,7 @@ Here are some recent publications. For more details, see also [my Google Scholar
     </p>
     <p class="links">
         [<a href="https://doi.org/10.1109/ICDE51399.2021.00176">ICDE 2021</a>]
-        <!-- [<a href="/files/starlord-2018.pdf">PDF</a>] -->
+        [<a href="/files/f4u-2021.pdf">PDF</a>]
     </p>
 </div>
 
@@ -32,7 +32,7 @@ Here are some recent publications. For more details, see also [my Google Scholar
     </p>
     <p class="links">
         [<a href="https://doi.org/10.1109/ICDE51399.2021.00312">ICDE 2021</a>]
-        <!-- [<a href="/files/starlord-2018.pdf">PDF</a>] -->
+        [<a href="/files/f4u_demo-2021.pdf">PDF</a>]
     </p>
 </div>
 
@@ -46,7 +46,7 @@ Here are some recent publications. For more details, see also [my Google Scholar
     </p>
     <p class="links">
         [<a href="https://doi.org/10.1007/978-3-030-86514-6_27">ECML-PKDD 2021</a>]
-        <!-- [<a href="/files/starlord-2018.pdf">PDF</a>] -->
+        [<a href="/files/obelisc-2021.pdf">PDF</a>]
     </p>
 </div>
 
@@ -60,7 +60,7 @@ Here are some recent publications. For more details, see also [my Google Scholar
     </p>
     <p class="links">
         [<a>AALTD 2021 (Av. Upon Request)</a>]
-        <!-- [<a href="/files/starlord-2018.pdf">PDF</a>] -->
+        [<a href="/files/tramesino-2021.pdf">PDF</a>]
     </p>
 </div>
 
@@ -74,7 +74,7 @@ Here are some recent publications. For more details, see also [my Google Scholar
     </p>
     <p class="links">
         [<a href="https://doi.org/10.1109/BigData50022.2020.9378068">IEEE Big Data 2020</a>]
-        <!-- [<a href="/files/starlord-2018.pdf">PDF</a>] -->
+        [<a href="/files/jam_detection-2020.pdf">PDF</a>]
     </p>
 </div>
 
@@ -114,7 +114,8 @@ Here are some recent publications. For more details, see also [my Google Scholar
         Modern cities use information and communication technologies to obtain deep insights on the different aspects of the way they operate, which can allow officials to make informed decisions to improve the operational efficiency of different operations and improve the life of their citizens. Analyzing the data about the different activities poses significant challenges. It is not merely the volume that recent hardware and software advancements have helped to achieve, but also challenges regarding the variety, velocity, and veracity of the data. All this is often known as the Big Data paradigm. In this document, we analyze some of these challenges, which we believe have not yet received considerable attention, we explain their value, and we describe some of the advanced solutions we have developed.
     </p>
     <p class="links">
-        [<a href="https://event.unitn.it/smartcities-trento/Trento_WP_Brugnara1.pdf">IEEE Smart Cities Whitepaper</a>]
+        [<a href="https://smartcities.ieee.org/images/files/pdf/2019-01_SCWhitePaper-DataManagementinSC.pdf">IEEE Smart Cities Whitepaper</a>]
+        [<a href="https://event.unitn.it/smartcities-trento/Trento_WP_Brugnara1.pdf">PDF</a>]
     </p>
 </div>
 
