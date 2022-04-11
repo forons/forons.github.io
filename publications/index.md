@@ -10,11 +10,24 @@ Here are some recent publications. For more details, see also [my Google Scholar
 
 <div class="grid-x articleSummary">
     <a>
+        <h4 style="margin-bottom: 0;">Topology-Preserving Simplification of OpenStreetMap Network Data for Large-scale Simulation in SUMO</h4>
+        <span>Z. Meng, X. Du, P. Sottovia, <b>D. Foroni</b>, C. Axenie, A. Wieder, D. Eckhoff, S. Bortoli, A. Knoll, and C. Sommer</span>
+    </a>
+    <p style="margin-top: 10px">
+        Existing data quality works have so far focused on the computation of many data characteristics as a mean of quantifying different quality dimensions, like freshness, consistency, accuracy, or completeness, that are all defined about some ideal (clean) dataset. We claim that this approach falls short in providing a full specification of the quality of the data since it does not take into consideration the task for which the data is to be used, neither any future instances of the dataset. We argue that apart from the difference from the clean dataset, it is equally important to know the degree to which such difference affects the results of the task at hand. Thus, we extend the existing data quality definition to include that degree. Our approach, not only allows data quality to be considered in the context of the intended task, but can also provide useful information even in the absence of the clean dataset, and proffer an understanding of the effect of data quality in future dataset instances. We describe a system and its implementation that computes this extended form of data quality through a principled approach of systematic noise generation and task result evaluation. We perform numerous experiments illustrating the effectiveness of the approach and how this allows contextualizing traditional data quality measures.
+    </p>
+    <p class="links">
+        [<a href="">SUMO User Conference 2022</a>]
+        [<a href="">PDF</a>]
+    </p>
+</div>
+
+<div class="grid-x articleSummary">
+    <a>
         <h4 style="margin-bottom: 0;">Estimating the Extent of the Effects of Data Quality through Observations</h4>
         <span><b>D. Foroni</b>, M. Lissandrini, and Y. Velegrakis</span>
     </a>
     <p style="margin-top: 10px">
-        Existing data quality works have so far focused on the computation of many data characteristics as a mean of quantifying different quality dimensions, like freshness, consistency, accuracy, or completeness, that are all defined about some ideal (clean) dataset. We claim that this approach falls short in providing a full specification of the quality of the data since it does not take into consideration the task for which the data is to be used, neither any future instances of the dataset. We argue that apart from the difference from the clean dataset, it is equally important to know the degree to which such difference affects the results of the task at hand. Thus, we extend the existing data quality definition to include that degree. Our approach, not only allows data quality to be considered in the context of the intended task, but can also provide useful information even in the absence of the clean dataset, and proffer an understanding of the effect of data quality in future dataset instances. We describe a system and its implementation that computes this extended form of data quality through a principled approach of systematic noise generation and task result evaluation. We perform numerous experiments illustrating the effectiveness of the approach and how this allows contextualizing traditional data quality measures.
     </p>
     <p class="links">
         [<a href="https://doi.org/10.1109/ICDE51399.2021.00176">ICDE 2021</a>]

@@ -1,13 +1,14 @@
 ---
 layout: home
-excerpt: "Daniele Foroni's personal page - Big Data Research Engineer at Huawei Munich ERC - European Research Center"
-tags: [Daniele Foroni, Huawei, personal page]
+excerpt: "Daniele Foroni's personal page - Senior Full-Stack Data Scientist @ StatsPerform"
+tags: [Daniele Foroni, StatsPerform, Stats, Perform, Huawei, personal page]
 ---
 
 # About me
 
-I am Daniele Foroni and I am working as Senior Big Data Research Engineer at
-[Huawei ERC - European Research Center][huawei] in Munich, Germany.
+I am Daniele Foroni and I am working as Senior Full-Stack Data Scientist at [Stats Perform][statsperform].
+Previously, I was a Staff Big Data Research Engineer at
+[Huawei MRC - Munichn Research Center][huawei] in Munich, Germany.
 
 I received my Ph.D. in Computer Science in 2019 from the [University of Trento][unitn],
 under the guidance of my advisor [Yannis Velegrakis][yannis].
@@ -48,4 +49,5 @@ any vehicle can follow is massive.
 [yannis]: https://velgias.github.io/
 [phd]: https://iris.unitn.it/handle/11572/243318
 [tim]: https://www.telecomitalia.com/en/innovation/open-innovation/tim-open-labs.html
+[statsperform]: https://www.statsperform.com/artificial-intelligence/
 
