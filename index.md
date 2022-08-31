@@ -7,6 +7,11 @@ tags: [Daniele Foroni, StatsPerform, Stats, Perform, Huawei, personal page]
 # About me
 
 I am Daniele Foroni and I am working as Senior Full-Stack Data Scientist at [Stats Perform][statsperform].
+In particupar, I create predictive model for various football-related analysis, following the end-to-end
+process of the model, from the data ingestion and feature creation, through the model tuning, to the 
+deployment in production. Among the various technologies, we use standard machine learning, deep neural
+networks, and the AWS ecosystem.
+
 Previously, I was a Staff Big Data Research Engineer at
 [Huawei MRC - Munichn Research Center][huawei] in Munich, Germany.
 
