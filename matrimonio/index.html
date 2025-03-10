@@ -51,6 +51,7 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="icon" type="image/x-icon" href="images/pic.jpg">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -139,16 +140,11 @@
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
 									<h3>Ricevimento</h3>
-									<div class="event-col">
+									<div>
 										<i class="icon-calendar"></i>
 										<span>23 Agosto 2025</span>
 									</div>
-									<div class="event-col">
-
-										<i class="icon-clock"></i>
-										<span>13:00 </span>
-									</div>
-									<div class="event-col">
+									<div style="color: rgba(0, 0, 0, 0.8)">
 										<i class="icon-clock"></i>
 										Taglio della Torta
 										<span>19:00</span>
@@ -179,287 +175,57 @@
 						<div class="col-md-6 text-center event-wrap animate-box">
 							<form 
 								method="POST" 
-								action="https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElO"
+								action="https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElOcurK/exec"
 							>
 								<div class="nice-form-group">
 									<label>Nome</label>
-									<input type="text" placeholder="Il tuo nome" name="name" value="" />
+									<input type="text" placeholder="Il tuo nome" name="Nome" value="" />
 								</div>
 								<div class="nice-form-group">
 									<label>Cognome</label>
-									<input type="text" placeholder="Il tuo cognome" name="surname" value="" />
+									<input type="text" placeholder="Il tuo cognome" name="Cognome" value="" />
 								</div>
 								<div class="nice-form-group">
 									<label>E-mail</label>
-									<input type="email" placeholder="La tua email" name="email" value="" />
+									<input type="email" placeholder="La tua email" name="Email" value="" />
 								</div>
 								<fieldset class="nice-form-group">
 									<legend>Parteciperai?</legend>
 									<div class="nice-form-group">
-										<input type="radio" name="attendance" id="yes" />
+										<input type="radio" name="Partecipazione" id="yes" />
 										<label for="yes">Sì, con piacere!</label>
 									</div>
 									
 									<div class="nice-form-group">
-										<input type="radio" name="attendance" id="no" />
+										<input type="radio" name="Partecipazione" id="no" />
 										<label for="no">No, purtroppo non posso.</label>
 									</div>
 								</fieldset>
 								<div class="nice-form-group">
 									<label for="guests">Numero di ospiti che parteciperanno:</label>
-									<input type="number" id="guests" name="guests" min="1">
+									<input type="number" id="guests" name="Ospiti" min="1">
 								</div>
 								<div class="nice-form-group">
-									<label for="guests">Quanti bambini? (sotto i 10 anni)</label>
-									<input type="number" id="guests" name="guests" min="0">
+									<label for="children">Quanti bambini? (sotto i 10 anni)</label>
+									<input type="number" id="children" name="Bambini" min="0">
 								</div>
 								<div class="nice-form-group">
 									<label for="diet">Restrizioni alimentari:</label>
-									<input type="text" id="diet" name="diet">
+									<input type="text" id="diet" name="Restrizioni">
 								</div>
 								<div class="nice-form-group">
-									<label for="diet">Altre informazioni:</label>
-									<input type="text" id="diet" name="diet">
+									<label for="notes">Altre informazioni:</label>
+									<input type="text" id="notes" name="Note">
 								</div>
-<!-- 							
-								<div>	
-									<label>Nome</label>
-									<input type="text" placeholder="Il tuo name" name="name" value="">
-								</div>
-								<div>
-									<label>Cognome</label>
-									<input type="text" placeholder="Il tuo cognome" name="surname" value="">
-								</div>
-								<div>
-									<label>Parteciperai?</label>
-									<div class="radio-group">
-										<input type="radio" id="yes" name="attendance" value="yes" required>
-										<label for="yes">Sì, con piacere!</label>
-										<input type="radio" id="no" name="attendance" value="no">
-										<label for="no">No, purtroppo non posso partecipare.</label>
-									</div>
-								</div> -->
 								<button type="submit">Invia risposta</button>
 							</form>
-							
-								<!-- <input type="tel" placeholder="Your phonenumber" value="">
-							
-								<input type="url" placeholder="www.google.com" value="">
-							
-								<input type="password" placeholder="Your password">
-							
-								<input type="search" placeholder="Search all the things" value="">
-							
-								<input type="text" disabled="" placeholder="Your name" value="">
-							
-								<input type="email" placeholder="Your email" value="this is not a email adress" required="">
-							
-								<input type="email" placeholder="Your email" value="nice@forms.com" required="">
-							
-								<textarea rows="5" placeholder="Your message"></textarea>
-							
-								<select>
-								  <option>Please select a value</option>
-								  <option>Option 1</option>
-								  <option>Option 2</option>
-								</select>
-							
-								<input type="file">
-							
-								<input type="range" min="0" max="15">
-							
-								<div>
-								  <input type="month" value="2018-05">
-								</div>
-							
-								<div>
-								  <input type="week" value="2017-W01">
-								</div>
-							
-								<div>
-								  <input type="date" value="2018-07-22">
-								</div>
-							
-								<div>
-								  <input type="time" value="13:30">
-								</div>
-							
-								<div>
-								  <input type="radio" name="radio" id="r-2">
-								  <label for="r-2">
-									Radio button with label
-									<small>Radio can have additional information</small>
-								  </label>
-								</div>
-							
-								<div>
-								  <input type="checkbox" id="check-2">
-								  <label for="check-2">
-									Checkbox with label
-									<small>I am additional information regarding this field</small>
-								  </label>
-								</div>
-							
-								<fieldset>
-								  <legend>Select your favorite framework</legend>
-								  <div>
-									<input type="radio" name="radio" id="react">
-									<label for="react">React</label>
-								  </div>
-							
-								  <div>
-									<input type="radio" name="radio" id="vue">
-									<label for="vue">Vue</label>
-								  </div>
-							
-								  <div>
-									<input type="radio" name="radio" id="angular">
-									<label for="angular">Angular</label>
-								  </div>
-								</fieldset>
-							
-								<fieldset>
-								  <legend>Select your favorite languages</legend>
-								  <div>
-									<input type="checkbox" id="css">
-									<label for="css">CSS</label>
-								  </div>
-							
-								  <div>
-									<input type="checkbox" id="html">
-									<label for="html">HTML</label>
-								  </div>
-							
-								  <div>
-									<input type="checkbox" id="js">
-									<label for="js">Javascript</label>
-								  </div>
-								</fieldset>
-							
-								<div>
-								  <input type="number" placeholder="1234">
-								</div>
-							
-								<div>
-								  <input type="color">
-								</div>
-							  
-							
-							<div data-lastpass-root="" style="position: absolute !important; top: 0px !important; left: 0px !important; height: 0px !important; width: 0px !important;"></div>
-								<div>
-									<label for="name">Il tuo nome:</label>
-									<input type="text" id="name" name="name" required>
-								</div>
-
-								<div>	
-									<label for="name">Il tuo cognome:</label>
-									<input type="text" id="name" name="name" required>
-								</div>
-
-								<label>Parteciperai?</label>
-								<div class="radio-group">
-									<input type="radio" id="yes" name="attendance" value="yes" required>
-									<label for="yes">Sì, con piacere!</label>
-									<input type="radio" id="no" name="attendance" value="no">
-									<label for="no">No, purtroppo non posso partecipare.</label>
-								</div>
-
-								<label for="guests">Numero di ospiti che parteciperanno:</label>
-								<input type="number" id="guests" name="guests" min="1">
-
-								<label for="guests">Quanti bambini? (sotto i 10 anni)</label>
-								<input type="number" id="guests" name="guests" min="0">
-
-								<label for="diet">Restrizioni alimentari:</label>
-								<input type="text" id="diet" name="diet">
-
-								<label for="song">Richiesta di una canzone per il ricevimento:</label>
-								<input type="text" id="song" name="song">
-
-								<label for="email">Il tuo indirizzo email:</label>
-								<input type="email" id="email" name="email" required>
-
-								<label for="message">Messaggio aggiuntivo:</label>
-								<textarea id="message" name="message" rows="4"></textarea>
-
-								<button type="submit" class="btn">Invia RSVP</button> -->
-							</form>
-						<!-- </div>
-					</div> -->
-				</div>
-			</div>
-			<!-- <div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-8 col-sm-8 text-center">
-							<div class="event-wrap animate-box">
-								<label for="name">Il tuo nome:</label>
-								<input type="text" id="name" name="name" required>
-
-								<label>Parteciperai?</label>
-								<div class="radio-group">
-									<input type="radio" id="yes" name="attendance" value="yes" required>
-									<label for="yes">Sì, con piacere!</label>
-									<input type="radio" id="no" name="attendance" value="no">
-									<label for="no">No, purtroppo non posso partecipare.</label>
-								</div>
-
-								<label for="guests">Numero di ospiti che parteciperanno:</label>
-								<input type="number" id="guests" name="guests" min="1">
-
-								<label for="diet">Restrizioni alimentari:</label>
-								<input type="text" id="diet" name="diet">
-
-								<label for="email">Il tuo indirizzo email:</label>
-								<input type="email" id="email" name="email" required>
-
-								<label for="phone">Il tuo numero di telefono:</label>
-								<input type="tel" id="phone" name="phone" required>
-
-								<label for="message">Note aggiuntive:</label>
-								<textarea id="message" name="message" rows="4"></textarea>
-
-								<button type="submit" class="btn">Invia RSVP</button>
-								<form 
-									method="POST" 
-									action="https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElOcurK/exec"
-								>
-								<input name="Email" type="email" placeholder="Email" required>
-								<input name="Name" type="text" placeholder="Name" required>
-								<form
-									method="POST" 
-									action="https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElOcurK/exec">
-									<button type="submit">Send</button>
-								</form>
-							</div>
-						</div> -->
-		</div>
-	</div>
-
-
-
-	<!-- <div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Highlights</h2>
-
-				</div>
-			</div>
-
-
-
-				<div class="container animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-			
 		</div>
-	</div> -->
+	</div>
+
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
