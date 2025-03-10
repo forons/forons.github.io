@@ -174,50 +174,50 @@
 					<div class="display-tc">
 						<div class="col-md-6 text-center event-wrap animate-box">
 							<form 
+								id="rsvp-form"
 								method="POST" 
 								action="https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElOcurK/exec"
 							>
 								<div class="nice-form-group">
 									<label>Nome</label>
-									<input type="text" placeholder="Il tuo nome" name="Nome" value="" />
+									<input type="text" placeholder="Il tuo nome" name="Nome" value="" required/>
 								</div>
 								<div class="nice-form-group">
 									<label>Cognome</label>
-									<input type="text" placeholder="Il tuo cognome" name="Cognome" value="" />
+									<input type="text" placeholder="Il tuo cognome" name="Cognome" value="" required/>
 								</div>
 								<div class="nice-form-group">
 									<label>E-mail</label>
-									<input type="email" placeholder="La tua email" name="Email" value="" />
+									<input type="email" placeholder="La tua email" name="Email" value="" required/>
 								</div>
 								<fieldset class="nice-form-group">
 									<legend>Parteciperai?</legend>
-									<div class="nice-form-group">
-										<input type="radio" name="Partecipazione" id="yes" />
-										<label for="yes">Sì, con piacere!</label>
-									</div>
-									
-									<div class="nice-form-group">
-										<input type="radio" name="Partecipazione" id="no" />
-										<label for="no">No, purtroppo non posso.</label>
-									</div>
+									<select name="Partecipazione" required>
+										<option value="">-- Scegli un'opzione</option>
+										<option value="Si">Sì, con piacere!</option>
+										<option value="No">No, purtroppo non posso.</option>
+									  </select>
 								</fieldset>
 								<div class="nice-form-group">
 									<label for="guests">Numero di ospiti che parteciperanno:</label>
-									<input type="number" id="guests" name="Ospiti" min="1">
+									<input type="number" id="guests" name="Ospiti" min="0"/>
 								</div>
 								<div class="nice-form-group">
 									<label for="children">Quanti bambini? (sotto i 10 anni)</label>
-									<input type="number" id="children" name="Bambini" min="0">
+									<input type="number" id="children" name="Bambini" min="0"/>
 								</div>
 								<div class="nice-form-group">
 									<label for="diet">Restrizioni alimentari:</label>
-									<input type="text" id="diet" name="Restrizioni">
+									<input type="text" id="diet" name="Restrizioni"/>
 								</div>
 								<div class="nice-form-group">
 									<label for="notes">Altre informazioni:</label>
-									<input type="text" id="notes" name="Note">
+									<input type="text" id="notes" name="Note"/>
 								</div>
-								<button type="submit">Invia risposta</button>
+								<button id="submit-button" type="submit">
+									Invia risposta
+									<i class="icon-check"></i>
+								</button>
 							</form>
 						</div>
 					</div>

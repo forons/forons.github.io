@@ -1805,3 +1805,61 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+#submit-button {
+  padding: 10px 10px;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  background: none;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  outline: none;
+  transition: 200ms;
+  margin-top: 20px;
+}
+
+i {
+  transition: 200ms;
+  position: absolute;
+  color: transparent;
+}
+
+#submit-button:hover {
+  background: rgba(0, 0, 0, 0.232);
+}
+
+#submit-button:focus {
+  color: transparent;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 25px 25px;
+  border-left: 2px solid rgba(0, 0, 0, 0.8);
+  animation: spin 2s 500ms forwards;
+}
+
+#submit-button:focus i {
+  animation: check 300ms 2250ms forwards;
+}
+
+@keyframes spin {
+  80% {
+    border: 2px solid transparent;
+    border-left: 2px solid rgba(0, 0, 0, 0.8);
+  }
+  100% {
+    transform: rotate(720deg);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+  }
+}
+
+@keyframes check {
+  to {
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
