@@ -1819,9 +1819,13 @@ form label {
   outline: none;
   transition: 200ms;
   margin-top: 20px;
+  display: flex;
+  position: relative;
+  left: 45%;
+  align-items: center;
 }
 
-i {
+#icon-button {
   transition: 200ms;
   position: absolute;
   color: transparent;
