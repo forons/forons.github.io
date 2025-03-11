@@ -1867,3 +1867,11 @@ form label {
     color: rgba(0, 0, 0, 0.8);
   }
 }
+
+#fh5co-header {
+  background-image: url(images/pic.jpg);
+}
+
+@media(max-width:480px){
+  #fh5co-header{background-position: -250px !important;}
+}

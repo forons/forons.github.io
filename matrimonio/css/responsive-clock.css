@@ -4,6 +4,7 @@
   .flipTimebox .flip-clock-wrapper ul {
     height: 50px;
     line-height: 50px;
+    padding-left: 40px;
   }
   .flipTimebox .flip-clock-wrapper ul li {
     line-height: 50px;
