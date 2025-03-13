@@ -175,8 +175,7 @@
 						<div class="col-md-6 text-center event-wrap animate-box">
 							<form 
 								id="rsvp-form"
-								method="POST" 
-								action="https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElOcurK/exec"
+								onsubmit="rsvp(event)"
 							>
 								<div class="nice-form-group">
 									<label>Nome</label>
@@ -193,7 +192,7 @@
 								<fieldset class="nice-form-group">
 									<legend>Parteciperai?</legend>
 									<select name="Partecipazione" required>
-										<option>-- Scegli un'opzione</option>
+										<option value="">-- Scegli un'opzione</option>
 										<option value="Si">Sì, con piacere!</option>
 										<option value="No">No, purtroppo non posso.</option>
 									  </select>
@@ -214,10 +213,18 @@
 									<label for="notes">Altre informazioni:</label>
 									<input type="text" id="notes" name="Note"/>
 								</div>
-								<button id="submit-button" type="submit">
-									Invia risposta
-									<i id="icon-button" class="icon-check"></i>
-								</button>
+								<div id="button-div" class="nice-form-group">
+									<button class="button" type="submit">
+										Invia risposta
+										<!-- <i id="icon-button" class="icon-check"></i> -->
+									</button>
+									<div class="loader">
+										<div class="check">
+										<span class="check-one"></span>
+										<span class="check-two"></span>
+										</div>
+									</div>
+								</div>
 							</form>
 						</div>
 					</div>
@@ -257,5 +264,24 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script>		  
+		function rsvp(event) {
+			event.preventDefault();
+			const loader = document.querySelector('.loader');
+			const check = document.querySelector('.check');
+			loader.classList.add('active');
+
+			const form = document.getElementById("rsvp-form");
+			const data = new FormData(form);
+			const action = "https://script.google.com/macros/s/AKfycbwfVTwk2W-sgsdjNzcM3ko6QjMUibrfoqlGbF9omISHlJOjuYEG4O9be130SElOcurK/exec";
+			fetch(action, {
+				method: "POST",
+				body: data,
+			})
+			.then(() => {
+				check.classList.add('active');
+			});
+		};
+	</script>
 	</body>
 </html>
